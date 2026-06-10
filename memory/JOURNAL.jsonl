@@ -1,1 +1,2 @@
 {"ts":"2026-06-10T05:11:34.865Z","tags":["auto-save","cron","memory-system"],"text":"设置对话自动存档系统：阈值30条消息，每30分钟cron检查一次。存档路径 F:/HJM-memory/sessions/session-YYYY-MM-DD-N.md。保存后自动更新 MEMORY.md 索引。"}
+{"ts":"2026-06-10T06:29:56.607Z","tags":["git","backup","cron"],"text":"配置 GitHub 备份：仓库 dreamobserver/HJM-memory，每天 17:20 cron 自动 git push (add → commit → push)。MEMORY.md 已 tracked。"}
