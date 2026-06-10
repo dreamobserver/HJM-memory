@@ -130,5 +130,7 @@
 - [other-memory/chat(79).md](other-memory/chat(79).md) — 图片数字倍数计算请求
 
 ## 会话存档（CherryClaw 对话自动保存）
-> 阈值：30 条消息。每 30 分钟检查一次，达到阈值自动保存至 `sessions/`。
-> 格式：session-YYYY-MM-DD-N.md
+> 增量存档：cron 每 30 分钟触发，只保存新增消息，无新增则跳过。
+> 格式：`sessions/segment-YYYY-MM-DD-N.md`（增量片段）+ `result/session-YYYY-MM-DD-N.md`（完整存档）
+- [segment-2026-06-10-1](sessions/segment-2026-06-10-1.md) — Bootstrap → Cron 重构：身份初始化、文件规范、增量存档上线
+- [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
