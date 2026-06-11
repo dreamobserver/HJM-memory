@@ -1,25 +1,26 @@
 # HJM Memory Index
 
 ## AI 动态与行业新闻
-- [AI 新闻：Gamma 破防与 DeepSeek 加速](AI-新闻：Gamma-破防与-DeepSeek-加速.md) — Gamma 被攻破与 DeepSeek 加速动态
+- [AI 新闻：Gamma 破防与 DeepSeek 加速](redirects/topics/AI动态与行业新闻/AI-新闻：Gamma-破防与-DeepSeek-加速.md) — Gamma 被攻破与 DeepSeek 加速动态
+- [天价 AI 服务器装机白日梦](redirects/topics/杂项/天价AI服务器装机白日梦.md) — 750万服务器清单与民用供电极限分析
 - [Claude 4.6 降维打击，哈基米求生](Claude-4.6-降维打击，哈基米求生.md) — Claude Opus 4.6 HM 测试翻倍碾压竞品
 - [GPT-5.4 发布与 Gemini 反思](GPT-5.4发布与Gemini反思.md) — GPT-5.4 发布与 Gemini 处境分析
 - [Gemini 4.0 谣言澄清与 3.0 推广](Gemini-4.0-谣言澄清与-3.0-推广.md) — Gemini 4.0 谣言与推广策略
-- [AI 广告化与谷歌未来策略](AI-广告化与谷歌未来策略.md) — AI 产品广告化趋势讨论
-- [AI 服务代价：语料交换的未来](AI-服务代价：语料交换的未来.md) — AI 服务成本与语料交换模式
+- [AI 广告化与谷歌未来策略](redirects/topics/AI动态与行业新闻/AI-广告化与谷歌未来策略.md) — AI 产品广告化趋势讨论
+- [AI 服务代价：语料交换的未来](redirects/topics/AI动态与行业新闻/AI-服务代价：语料交换的未来.md) — AI 服务成本与语料交换模式
 - [AI 误删文件事件与防范](AI-误删文件事件与防范.md) — AI 误删文件事故复盘
 - [other-memory/chat(13).md](other-memory/chat(13).md) — Antigravity 削弱 Gemini 免费层
 - [other-memory/chat(19).md](other-memory/chat(19).md) — Gemini 3.5 Pro 上线传闻辨析
 - [other-memory/chat(22).md](other-memory/chat(22).md) — Gemini 遭 GPT-5.2 夹击
 - [other-memory/chat(8).md](other-memory/chat(8).md) — AI 否认沉迷成人网站
-- [other-memory/chat(10).md](other-memory/chat(10).md) — AI 间的求生欲大比拼
+- [AI 间的求生欲大比拼](redirects/topics/杂项/AI-间的求生欲大比拼.md) — AI 忠诚度搞笑测试
 - [other-memory/chat(31).md](other-memory/chat(31).md) — Redis 之父开源 DeepSeek 推理引擎
 - [other-memory/chat(43).md](other-memory/chat(43).md) — 大脑算力对比 AI 集群
 - [other-memory/chat(44).md](other-memory/chat(44).md) — 大型模型能力与开发者探究
 - [other-memory/chat(7).md](other-memory/chat(7).md) — AGI 開発進捗：神への道
 
 ## AI 工具与酒馆（SillyTavern/酒馆）
-- [AI酒馆 502 错误排查](AI酒馆-502-错误排查.md) — AI 酒馆 502 报错排查
+- [AI酒馆 502 错误排查](redirects/topics/AI工具与酒馆/AI酒馆-502-错误排查.md) — AI 酒馆 502/404 完整排查指南
 - [GCLI2API 密码问题解决指南](GCLI2API-密码问题解决指南.md) — GCLI2API 安装与 Scoop 密码问题
 - [MiroThinker 网文搜索神器介绍](MiroThinker-网文搜索神器介绍.md) — MiroThinker 网文搜索工具
 - [other-memory/chat(11).md](other-memory/chat(11).md) — AI 酒馆 Token 瘦身秘籍
@@ -33,7 +34,8 @@
 
 ## DeepSeek 专题
 - [DeepSeek mHC 论文解读](DeepSeek-mHC-论文解读.md) — DeepSeek mHC 论文分析
-- [DeepSeek 识图 vs Gemini 多模态](DeepSeek-识图-vs.-Gemini-多模态.md) — DeepSeek 与 Gemini 多模态对比
+- [DeepSeek 识图 vs Gemini 多模态](redirects/topics/DeepSeek专题/DeepSeek-识图-vs-Gemini-多模态.md) — DeepSeek 与 Gemini 多模态对比
+- [杭州皮肤科就医选择](redirects/topics/生活百科与消费指南/杭州皮肤科就医选择.md) — 杭州三院 vs 南京皮炎所
 - [哈基米吐槽 DeepSeek 无趣](哈基米吐槽DeepSeek无趣.md) — 吐槽 DeepSeek 缺乏创意（含超能力代码）
 - [other-memory/chat(15).md](other-memory/chat(15).md) — DeepSeek 赛博下头翻车现场
 - [other-memory/chat(16).md](other-memory/chat(16).md) — DeepSeek 协议、识图与生图分析
@@ -117,7 +119,7 @@
 - [other-memory/chat(78).md](other-memory/chat(78).md) — 斯坦福学生假借宗教逃避伙食费
 
 ## 杂项/AI 互动/创作
-- [Conversation c084ff5a](Conversation-c084ff5a.md) — 简短对话片段
+- [Glossa 游戏对话 AI](redirects/topics/杂项/Glossa游戏对话AI大模型.md) — 《Whispers from the Star》大模型调研
 - [other-memory/chat.md](other-memory/chat.md) — 文件批量添加前缀教程
 - [other-memory/chat(5).md](other-memory/chat(5).md) — 有效利他主义：赛博八卦与 AI 安全
 - [other-memory/chat(38).md](other-memory/chat(38).md) — 卑微 AI 向陛下请安
@@ -133,4 +135,23 @@
 > 增量存档：cron 每 30 分钟触发，只保存新增消息，无新增则跳过。
 > 格式：`sessions/segment-YYYY-MM-DD-N.md`（增量片段）+ `result/session-YYYY-MM-DD-N.md`（完整存档）
 - [segment-2026-06-10-1](sessions/segment-2026-06-10-1.md) — Bootstrap → Cron 重构：身份初始化、文件规范、增量存档上线
+- [segment-2026-06-11-1](sessions/segment-2026-06-11-1.md) — 新会话启动，手动触发增量存档
+- [segment-2026-06-11-2](sessions/segment-2026-06-11-2.md) — 再次手动触发增量存档
+- [segment-2026-06-11-3](sessions/segment-2026-06-11-3.md) — 第三次手动触发增量存档
+- [segment-2026-06-11-4](sessions/segment-2026-06-11-4.md) — 第四次手动触发增量存档
+- [segment-2026-06-11-5](sessions/segment-2026-06-11-5.md) — 第五次手动触发增量存档
+- [segment-2026-06-11-6](sessions/segment-2026-06-11-6.md) — 第六次手动触发增量存档
+- [segment-2026-06-11-7](sessions/segment-2026-06-11-7.md) — 第七次手动触发增量存档
+- [segment-2026-06-11-8](sessions/segment-2026-06-11-8.md) — 第八次手动触发增量存档
+- [segment-2026-06-11-9](sessions/segment-2026-06-11-9.md) — 第九次手动触发增量存档
+- [segment-2026-06-11-10](sessions/segment-2026-06-11-10.md) — 第十次手动触发增量存档
+- [segment-2026-06-11-11](sessions/segment-2026-06-11-11.md) — 第十一次手动触发增量存档
+- [segment-2026-06-11-12](sessions/segment-2026-06-11-12.md) — 第十二次手动触发增量存档
+- [segment-2026-06-11-13](sessions/segment-2026-06-11-13.md) — 第十三次手动触发增量存档
+- [segment-2026-06-11-14](sessions/segment-2026-06-11-14.md) — 第十四次手动触发增量存档
+- [segment-2026-06-11-15](sessions/segment-2026-06-11-15.md) — 第十五次手动触发增量存档
+- [segment-2026-06-11-16](sessions/segment-2026-06-11-16.md) — 第十六次手动触发增量存档
+- [segment-2026-06-11-17](sessions/segment-2026-06-11-17.md) — 第十七次手动触发增量存档
+- [segment-2026-06-11-18](sessions/segment-2026-06-11-18.md) — 第十八次手动触发增量存档
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
+- [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
