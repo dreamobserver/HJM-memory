@@ -1,0 +1,100 @@
+# [image.png PNG 210.64KB]
+
+**分类**: 编程与技术排错
+**来源**: DeepSeek Chat 导出
+**来源平台**: DeepSeek
+
+---
+
+# 用户：
+
+[image.png PNG 210.64KB]
+帮我在云服务器上布置科学上网。目前是3x-ui
+
+# DeepSeek：
+
+**原始回答**
+
+看到你提供的截图了，这正是`3x-ui`面板的登录页。它是一款很流行的开源图形化面板，可以帮你通过网页端轻松管理`Xray-core`代理服务。下面是一份在云服务器上搭建`3x-ui`的详细教程。
+
+### 📝 安装前准备
+
+在开始之前，请确保你准备好了以下各项：
+
+1. **一台云服务器 (VPS)**：可以是任意你信赖的服务商。推荐使用**Ubuntu 22.04**或**Debian 11/12**等较新的Linux系统[-2](https://boys.tf/773.html)[-5](http://blog.ypintao.com/2026/01/03/%E4%BA%91%E6%89%8B%E6%9C%BA-%E6%97%A0%E4%BA%BA%E7%9B%B4%E6%92%AD/%E4%BB%A3%E7%90%86%E6%90%AD%E5%BB%BA/#search)。
+1. **一个域名（强烈推荐）**：使用域名可以启用HTTPS访问，从而保证面板和代理链接的安全[-2](https://boys.tf/773.html)[-1](https://wiki.senko.digital/vpn/3x-ui)。如果没有，也可以暂时用IP地址访问，但会面临安全风险。
+1. **SSH客户端 (如Finalshell, MobaXterm, Xshell)**：需要通过这个工具来远程连接到你的云服务器[-4](https://apepine.com/archives/361)。
+1. **科学上网客户端**：包括Windows客户端v2rayN[-4](https://apepine.com/archives/361)、安卓端v2rayNG[-4](https://apepine.com/archives/361)和Mac及iPhone用户可尝试使用Surge、Stash等。
+
+*小提示：如果你的服务器使用了CDN（比如Cloudflare），在选择“添加入站”时需要避开CDN的标准HTTPS端口（如443/2096/8443等），以避免链接失败[-4](https://apepine.com/archives/361)。*
+
+### 🚀 正式部署步骤
+
+#### 第一步：SSH连接到你的云服务器
+
+> 这一步主要通过SSH客户端登录远程服务器，为了方便小白操作，我直接推荐Windows用户使用Finalshell。当然，也可以直接用系统自带的CMD来操作。
+
+- **Finalshell用户**：可以直接在官网下载后，根据[这篇教程](https://www.hostbuf.com/t/988.html)进行配置连接[-4](https://apepine.com/archives/361)。
+- **CMD用户**：在电脑搜索栏输入`cmd`，打开命令提示符后，输入以下命令并回车：
+````bash
+ssh root@你的服务器公网IP
+````
+- 之后根据提示输入`yes`确认连接，并输入你的服务器密码。在输入密码时，屏幕上不会有任何显示，这是正常现象，输入完成后直接回车即可。
+
+#### 第二步：运行官方一键安装脚本
+
+连接上服务器后，执行以下命令就可以快速完成安装了[-2](https://boys.tf/773.html)[-5](http://blog.ypintao.com/2026/01/03/%E4%BA%91%E6%89%8B%E6%9C%BA-%E6%97%A0%E4%BA%BA%E7%9B%B4%E6%92%AD/%E4%BB%A3%E7%90%86%E6%90%AD%E5%BB%BA/#search)[-15](https://gitea.com/torpedo/3x-ui/src/branch/main/README.md)：
+
+````bash
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+````
+
+安装脚本会引导你进行一些基础设置。大部分选项直接按回车选择默认项即可，但在下面两个安全选项中，建议选择"是"（输入`y`并回车）来确保面板安全：
+
+- **修改面板设置**：可以选择自定义面板端口（面板页面的访问端口）、用户名和密码。
+- **设置SSL证书（关键）**：建议为面板访问地址设置SSL证书。这里有两种方式，可以根据你的需求选择：
+
+安装成功后，你会看到类似下面的信息：
+
+````text
+panel login info:
+Panel: http://你的_IP:你的_端口/你的_随机路径
+Username: 你的_用户名
+Password: 你的_密码
+````
+
+请务必**立即将这些信息复制并妥善保存**。之后，就用这个地址、用户名和密码登录3x-ui面板。
+
+#### 第三步：设置代理入站 & 连接客户端
+
+登录面板后，配置代理节点就很简单直观了，我们以目前最主流的`VLESS + Reality`协议为例：
+
+1. **添加入站**：点击左侧导航栏的**“入站列表”**，然后点击**“添加入站”**按钮[-2](https://boys.tf/773.html)。
+1. **配置协议**：在弹出窗口中，参考以下设置：
+    - **备注**：随便填一个方便自己记忆的名字。
+    - **协议**：选择**VLESS**。
+    - **端口**：填入一个没有被占用的端口（例如`443`）。
+    - **流控**：保持默认的`xtls-rprx-vision`。
+    - **回落**：点击“添加fallback”，目标可以填`"www.bing.com:80"`,`"www.microsoft.com:443"`。
+    - **安全**：选择**reality**[-8](https://zblog.hqyman.cn/post/17715.html)。
+    - **ServerName/SNI**：填入一个常用的高信誉网站域名，用于伪装。例如`"www.microsoft.com"`或`"cloudflare.com"`。`Target`地址可以填`"www.bing.com:443"`[-8](https://zblog.hqyman.cn/post/17715.html)。
+    - **公钥/私钥**：点击**“生成密钥”**按钮，面板会自动生成一对密钥，并将公钥填写到`PublicKey`指定区域。
+    - **ShortIds**：留空即可，或填入`"1234567890abcdef"`。
+1. **添加客户端**：在同一个窗口中，找到“客户端配置”区域，点击“添加客户端”。
+    - **电子邮箱**：这个字段非常关键，它实际上是该客户端的**唯一标识符（UUID）**。填入任意格式为邮箱的字符串，比如`user1@example.com`。你也可以点击旁边的“生成随机ID”按钮自动生成。请记住这个ID。
+1. **完成添加**：点击底部的**“添加”**按钮，就完成了节点的添加。
+1. **连接客户端**：
+    - **Windows (v2rayN)**：回到“入站列表”，点击刚创建好的节点旁边的“二维码”图标，生成二维码[-11](https://blog.misaka.now.cc/2024/04/03/3xui-panel/#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4)。在电脑上打开 v2rayN，点击`服务器`->`从剪贴板导入`->`扫描屏幕上的二维码`即可。
+    - **Android (v2rayNG)**：同样用3x-ui面板生成二维码，在手机v2rayNG App中，点击右上角的“+”号图标，选择“扫描二维码”即可导入[-17](https://docs.fastvps.hosting/apps/3x-ui/)。
+
+### 💡 进阶技巧与问题排查
+
+下面这些技巧能帮你拓展面板功能，并解决一些常见问题：
+
+- **多出口IP配置**：如果你有多个服务器出口IP，可以在面板中为每个出口IP创建对应节点，确保IP与实际出口一一对应，避免路由出错[-3](https://www.vircs.com/index.php/docs/22)。
+- **故障排查要点**：
+    - **端口放行**：建议在云服务商的防火墙（安全组）和云服务器系统防火墙中，放行你面板和代理节点需要用到的所有端口[-4](https://apepine.com/archives/361)[-9](https://okekrr.com/archives/306)。
+    - **时间同步**：建议确保服务器、客户端所在设备的时间与互联网时间同步，误差不要太大。
+    - **无法访问面板**：当无法访问面板时，可以先检查是否开启了系统代理或代理客户端（如v2rayN、Clash），可以关闭后再次尝试[-9](https://okekrr.com/archives/306)。
+
+希望这份教程能帮你快速地把`3x-ui`搭建起来。如果在配置过程中遇到任何问题，随时可以再来问我。

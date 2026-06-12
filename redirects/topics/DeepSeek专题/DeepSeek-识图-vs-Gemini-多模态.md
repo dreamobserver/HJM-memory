@@ -3,6 +3,7 @@
 **分类**：DeepSeek 专题
 **来源**：archive/named/DeepSeek-识图-vs.-Gemini-多模态.md 第 1-2 轮
 **日期**：2026-06-10
+**来源平台**：Gemini
 
 ---
 

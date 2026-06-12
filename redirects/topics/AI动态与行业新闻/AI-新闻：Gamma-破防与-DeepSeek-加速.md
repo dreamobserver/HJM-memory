@@ -3,6 +3,7 @@
 **分类**：AI 动态与行业新闻
 **来源**：archive/named/AI-新闻：Gamma-破防与-DeepSeek-加速.md 第 1-3 轮
 **日期**：2026-06-10
+**来源平台**：Gemini
 
 ---
 

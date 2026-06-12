@@ -2,10 +2,21 @@
 # 系统级定时备份，不依赖 Cherry Studio 是否在线
 # 使用: powershell -ExecutionPolicy Bypass -File backup.ps1
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 $repoPath = "F:\HJM-memory"
 $remote = "origin"
 $branch = "main"
+
+# 全局异常兜底 —— 确保窗口不会闪退
+trap {
+    Write-Host ""
+    Write-Host "╔══════════════════════════════════════╗" -ForegroundColor Red
+    Write-Host "║  ✗ 脚本异常终止!                    ║" -ForegroundColor Red
+    Write-Host "║  $_" -ForegroundColor Red
+    Write-Host "╚══════════════════════════════════════╝" -ForegroundColor Red
+    Read-Host "按 Enter 关闭窗口"
+    exit 1
+}
 
 # ═══════════════════════════════════════
 #  终端美化
