@@ -172,5 +172,6 @@
 - [segment-2026-06-11-35](sessions/segment-2026-06-11-35.md) — 第三十五次手动触发增量存档
 - [segment-2026-06-11-36](sessions/segment-2026-06-11-36.md) — 第三十六次手动触发增量存档
 - [segment-2026-06-11-37](sessions/segment-2026-06-11-37.md) — 第三十七次手动触发增量存档
+- [segment-2026-06-11-38](sessions/segment-2026-06-11-38.md) — 第三十八次手动触发增量存档
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
