@@ -173,5 +173,23 @@
 - [segment-2026-06-11-36](sessions/segment-2026-06-11-36.md) — 第三十六次手动触发增量存档
 - [segment-2026-06-11-37](sessions/segment-2026-06-11-37.md) — 第三十七次手动触发增量存档
 - [segment-2026-06-11-38](sessions/segment-2026-06-11-38.md) — 第三十八次手动触发增量存档
+- [segment-2026-06-11-39](sessions/segment-2026-06-11-39.md) — 第三十九次手动触发增量存档
+- [segment-2026-06-11-40](sessions/segment-2026-06-11-40.md) — 第四十次手动触发增量存档
+- [segment-2026-06-11-41](sessions/segment-2026-06-11-41.md) — 第四十一次手动触发增量存档
+- [segment-2026-06-11-42](sessions/segment-2026-06-11-42.md) — 第四十二次手动触发增量存档
+- [segment-2026-06-11-43](sessions/segment-2026-06-11-43.md) — 第四十三次手动触发增量存档
+- [segment-2026-06-11-44](sessions/segment-2026-06-11-44.md) — 涵盖第44-45轮（含"Continue"中断 + 第四十四次存档指令）
+- [segment-2026-06-11-45](sessions/segment-2026-06-11-45.md) — 第四十五次手动触发增量存档
+- [segment-2026-06-11-46](sessions/segment-2026-06-11-46.md) — 第四十六次手动触发增量存档
+- [segment-2026-06-11-47](sessions/segment-2026-06-11-47.md) — 第四十七次手动触发增量存档
+- [segment-2026-06-11-48](sessions/segment-2026-06-11-48.md) — 第四十八次手动触发增量存档
+- [segment-2026-06-11-49](sessions/segment-2026-06-11-49.md) — 第四十九次手动触发增量存档（第50轮里程碑）
+- [segment-2026-06-11-50](sessions/segment-2026-06-11-50.md) — 第五十次手动触发增量存档
+- [segment-2026-06-11-51](sessions/segment-2026-06-11-51.md) — 第五十一次手动触发增量存档
+- [segment-2026-06-11-52](sessions/segment-2026-06-11-52.md) — 第五十二次手动触发增量存档
+- [segment-2026-06-11-53](sessions/segment-2026-06-11-53.md) — 第五十三次手动触发增量存档
+- [segment-2026-06-11-54](sessions/segment-2026-06-11-54.md) — 第五十四次手动触发增量存档
+- [segment-2026-06-11-55](sessions/segment-2026-06-11-55.md) — 第五十五次手动触发增量存档
+- [segment-2026-06-11-56](sessions/segment-2026-06-11-56.md) — 第五十六次手动触发增量存档
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
