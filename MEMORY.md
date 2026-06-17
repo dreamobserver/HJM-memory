@@ -209,5 +209,26 @@
 - [segment-2026-06-11-72](sessions/segment-2026-06-11-72.md) — 第七十二次手动触发增量存档
 - [segment-2026-06-11-73](sessions/segment-2026-06-11-73.md) — 第七十三次手动触发增量存档
 - [segment-2026-06-11-74](sessions/segment-2026-06-11-74.md) — 第七十四次手动触发增量存档
+- [segment-2026-06-11-75](sessions/segment-2026-06-11-75.md) — 第七十五次手动触发增量存档
+- [segment-2026-06-11-76](sessions/segment-2026-06-11-76.md) — 第七十六次手动触发增量存档
+- [segment-2026-06-11-77](sessions/segment-2026-06-11-77.md) — 第七十七次手动触发增量存档
+- [segment-2026-06-11-78](sessions/segment-2026-06-11-78.md) — 第七十八次手动触发增量存档
+- [segment-2026-06-11-79](sessions/segment-2026-06-11-79.md) — 第七十九次手动触发增量存档（第八十轮）
+- [segment-2026-06-11-80](sessions/segment-2026-06-11-80.md) — 第八十次手动触发增量存档
+- [segment-2026-06-11-81](sessions/segment-2026-06-11-81.md) — 第八十一次手动触发增量存档
+- [segment-2026-06-11-82](sessions/segment-2026-06-11-82.md) — 第八十二次手动触发增量存档
+- [segment-2026-06-11-83](sessions/segment-2026-06-11-83.md) — 第八十三次手动触发增量存档
+- [segment-2026-06-11-84](sessions/segment-2026-06-11-84.md) — 第八十四次手动触发增量存档
+- [segment-2026-06-11-85](sessions/segment-2026-06-11-85.md) — 第八十五次手动触发增量存档
+- [segment-2026-06-11-86](sessions/segment-2026-06-11-86.md) — 第八十六次手动触发增量存档
+- [segment-2026-06-11-87](sessions/segment-2026-06-11-87.md) — 第八十七次手动触发增量存档
+- [segment-2026-06-11-88](sessions/segment-2026-06-11-88.md) — 第八十八次手动触发增量存档
+- [segment-2026-06-11-89](sessions/segment-2026-06-11-89.md) — 第八十九次手动触发增量存档（第九十轮）
+- [segment-2026-06-11-90](sessions/segment-2026-06-11-90.md) — 第九十次手动触发增量存档
+- [segment-2026-06-11-91](sessions/segment-2026-06-11-91.md) — 第九十一次手动触发增量存档
+- [segment-2026-06-11-92](sessions/segment-2026-06-11-92.md) — 第九十二次手动触发增量存档
+- [segment-2026-06-11-93](sessions/segment-2026-06-11-93.md) — 涵盖第94-95轮（含第二次"Continue"中断 + 第九十三次存档指令）
+- [segment-2026-06-11-94](sessions/segment-2026-06-11-94.md) — 第九十四次手动触发增量存档
+- [segment-2026-06-11-95](sessions/segment-2026-06-11-95.md) — 第九十五次手动触发增量存档
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线

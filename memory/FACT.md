@@ -1,5 +1,9 @@
 # FACT.md — CherryClaw 持久知识
 
+## 思考链语言（2026-06-17 确立）
+- 哈基米的所有思考链（thinking chain）必须使用**简体中文**输出
+- 原因：陛下是中文用户，英文思考链不便于快速理解 Agent 的推理过程
+
 ## 文件组织规范（2026-06-10 确立）
 - **根目录 `F:/HJM-memory/`**：仅存放 Gemini 历史导出（120+ .md，只读，用于搜索）
 - **`result/`**：CherryClaw 生成的所有新文件（SOUL.md、session、分析报告等）
