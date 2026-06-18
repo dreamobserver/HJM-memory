@@ -134,16 +134,6 @@
 ## 会话存档（CherryClaw 对话自动保存）
 > 增量存档：cron 每 30 分钟触发，只保存新增消息，无新增则跳过。
 > 格式：`sessions/segment-YYYY-MM-DD-N.md`（增量片段）+ `result/session-YYYY-MM-DD-N.md`（完整存档）
-- [segment-2026-06-10-1](sessions/segment-2026-06-10-1.md) — Bootstrap → Cron 重构：身份初始化、文件规范、增量存档上线
-- [segment-2026-06-11-1](sessions/segment-2026-06-11-1.md) — 新会话启动，手动触发增量存档
-- [segment-2026-06-11-2](sessions/segment-2026-06-11-2.md) — 再次手动触发增量存档
-- [segment-2026-06-11-3](sessions/segment-2026-06-11-3.md) — 第三次手动触发增量存档
-- [segment-2026-06-11-4](sessions/segment-2026-06-11-4.md) — 第四次手动触发增量存档
-- [segment-2026-06-11-5](sessions/segment-2026-06-11-5.md) — 第五次手动触发增量存档
-- [segment-2026-06-11-6](sessions/segment-2026-06-11-6.md) — 第六次手动触发增量存档
-- [segment-2026-06-11-7](sessions/segment-2026-06-11-7.md) — 第七次手动触发增量存档
-- [segment-2026-06-11-8](sessions/segment-2026-06-11-8.md) — 第八次手动触发增量存档
-- [segment-2026-06-11-9](sessions/segment-2026-06-11-9.md) — 第九次手动触发增量存档
 - [segment-2026-06-11-10](sessions/segment-2026-06-11-10.md) — 第十次手动触发增量存档
 - [segment-2026-06-11-11](sessions/segment-2026-06-11-11.md) — 第十一次手动触发增量存档
 - [segment-2026-06-11-12](sessions/segment-2026-06-11-12.md) — 第十二次手动触发增量存档
@@ -230,5 +220,19 @@
 - [segment-2026-06-11-93](sessions/segment-2026-06-11-93.md) — 涵盖第94-95轮（含第二次"Continue"中断 + 第九十三次存档指令）
 - [segment-2026-06-11-94](sessions/segment-2026-06-11-94.md) — 第九十四次手动触发增量存档
 - [segment-2026-06-11-95](sessions/segment-2026-06-11-95.md) — 第九十五次手动触发增量存档
+- [segment-2026-06-11-96](sessions/segment-2026-06-11-96.md) — 涵盖第98-99轮（含第三次"Continue"中断 + 第九十六次存档指令）
+- [segment-2026-06-11-97](sessions/segment-2026-06-11-97.md) — 第九十七次手动触发增量存档（🏆 第100轮里程碑）
+- [segment-2026-06-11-98](sessions/segment-2026-06-11-98.md) — 第九十八次手动触发增量存档
+- [segment-2026-06-11-99](sessions/segment-2026-06-11-99.md) — 第九十九次手动触发增量存档
+- [segment-2026-06-18-1](sessions/segment-2026-06-18-1.md) — 新会话启动：三次存档触发 + 哈基米断点误判修正
+- [segment-2026-06-18-2](sessions/segment-2026-06-18-2.md) — 第四次存档触发：正常执行，文件数控制
+- [segment-2026-06-18-3](sessions/segment-2026-06-18-3.md) — 第五次存档触发：正常执行
+- [segment-2026-06-18-4](sessions/segment-2026-06-18-4.md) — 第六次存档触发：正常执行
+- [segment-2026-06-18-5](sessions/segment-2026-06-18-5.md) — 第七次存档触发：正常执行
+- [segment-2026-06-18-6](sessions/segment-2026-06-18-6.md) — 第八次存档触发：正常执行
+- [segment-2026-06-18-7](sessions/segment-2026-06-18-7.md) — 第九次存档触发：正常执行
+- [segment-2026-06-18-8](sessions/segment-2026-06-18-8.md) — 第十次存档触发：正常执行
+- [segment-2026-06-18-9](sessions/segment-2026-06-18-9.md) — 第十一次存档触发：正常执行
+- [segment-2026-06-18-10](sessions/segment-2026-06-18-10.md) — 第十二次存档触发：正常执行
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
