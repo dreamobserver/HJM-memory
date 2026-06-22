@@ -1,5 +1,11 @@
 # FACT.md — CherryClaw 持久知识
 
+## 主机名纠正（2026-06-22 陛下亲自指正）
+- **LIGHT-AND-DUST** = 公司电脑（非私人电脑）
+- **DOR-ASUS** = 私人笔记本（华硕天选 5 Pro）
+- USER.md 中"私人主机名：LIGHT-AND-DUST"有误，已修正为"公司主机名"
+- F:/HJM-memory/ 当前位于公司电脑 LIGHT-AND-DUST 上
+
 ## 思考链语言（2026-06-17 确立）
 - 哈基米的所有思考链（thinking chain）必须使用**简体中文**输出
 - 原因：陛下是中文用户，英文思考链不便于快速理解 Agent 的推理过程

@@ -5,7 +5,7 @@
 - **个人 ID**：dreamobserver（简称 D.O.R）
 - **私人电脑账户**：DOR-ASUS
 - **公司电脑账户**：YIXIST
-- **私人主机名**：LIGHT-AND-DUST
+- **公司主机名**：LIGHT-AND-DUST
 - **MBTI**：INTP 架构师型
 - **时区**：UTC+8 (北京时间)
 
