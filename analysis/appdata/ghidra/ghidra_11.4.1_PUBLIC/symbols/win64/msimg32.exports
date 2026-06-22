@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIBRARY NAME="msimg32.dll" PATH="C:\Windows\System32\msimg32.dll" DATE="Wed May 13 09:09:11 CST 2026" VERSION="10.0.26100.8328 (WinBuild.160101.0800)">
+    <EXPORT ORDINAL="1" NAME="vSetDdrawflag" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="2" NAME="AlphaBlend" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="3" NAME="DllInitialize" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="4" NAME="GradientFill" PURGE="0" COMMENT="" />
+    <EXPORT ORDINAL="5" NAME="TransparentBlt" PURGE="0" COMMENT="" />
+</LIBRARY>
+

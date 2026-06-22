@@ -1,0 +1,1076 @@
+2026-06-18 15:31:16 INFO  (LoggingInitialization) Using log config file: jar:file:/E:/Tools/ghidra_11.4.1_PUBLIC_20250731/ghidra_11.4.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-06-18 15:31:16 INFO  (LoggingInitialization) Using log file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\application.log  
+2026-06-18 15:31:16 INFO  (Preferences) Loading user preferences: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\preferences  
+2026-06-18 15:31:16 INFO  (ClassSearcher) Searching for classes...  
+2026-06-18 15:31:17 INFO  (ClassSearcher) Class search complete (1072 ms)  
+2026-06-18 15:31:17 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-06-18 15:31:18 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-06-18 15:31:18 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-06-18 15:31:18 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-06-18 15:31:18 INFO  (FileCacheMaintenanceDaemon) Starting cache cleanup: F:\HJM-memory\analysis\localappdata\ghidra\fscache2  
+2026-06-18 15:31:18 INFO  (FileCacheMaintenanceDaemon) Finished cache cleanup, estimated storage used: 0  
+2026-06-18 15:31:18 INFO  (AnalyzeHeadless) Headless startup complete (13822 ms)  
+2026-06-18 15:31:18 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-06-18 15:31:19 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    F:\HJM-memory\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts  
+2026-06-18 15:31:19 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-06-18 15:31:19 INFO  (HeadlessAnalyzer) Creating project: F:\HJM-memory\analysis\ghidra_project\DSPI  
+2026-06-18 15:31:19 DEBUG (DefaultProjectManager) No tools found; Installing default tools  
+2026-06-18 15:31:19 DEBUG (DefaultProjectManager) 	no recent project directories found  
+2026-06-18 15:31:19 INFO  (DefaultProject) Creating project: F:\HJM-memory\analysis\ghidra_project\DSPI  
+2026-06-18 15:31:19 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-06-18 15:31:19 INFO  (HeadlessAnalyzer)      project: F:\HJM-memory\analysis\ghidra_project\DSPI  
+2026-06-18 15:31:19 INFO  (HeadlessAnalyzer) IMPORTING: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:31:23 INFO  (AutoImporter) Using Loader: Portable Executable (PE)  
+2026-06-18 15:31:23 INFO  (AutoImporter) Using Language/Compiler: x86:LE:64:default:windows  
+2026-06-18 15:31:23 INFO  (AutoImporter) Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, F:\powershell-setting\PowerShell7\7, C:\Users\YIXIST\.codex\tmp\arg0\codex-arg0s3bwvc, C:\Program Files\Daheng Imaging\GalaxySDK\GenICam\bin\Win64_x64, C:\Program Files\Daheng Imaging\GalaxySDK\APIDll\Win64, C:\Program Files\Daheng Imaging\GalaxySDK\GenICam\bin\Win32_i86, C:\Program Files\Daheng Imaging\GalaxySDK\APIDll\Win32, C:\Program Files\Daheng Imavision\MER-Series\GenICam\bin\Win64_x64, C:\Program Files\Daheng Imavision\MER-Series\APIDll\Win64, C:\Program Files\Daheng Imavision\MER-Series\GenICam\bin\Win32_i86, C:\Program Files\Daheng Imavision\MER-Series\APIDll\Win32, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\, C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\, C:\Program Files\Microsoft SQL Server\120\Tools\Binn\, C:\Program Files\Microsoft SQL Server\120\DTS\Binn\, C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\gsudo\Current, C:\Program Files\gsudo\2.6.1\, D:\Windows Kits\10\Windows Performance Toolkit\, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\Tailscale\, F:\powershell-setting\PowerShell7\7\, C:\Program Files\MVTec\HALCON\\bin\x86sse2-win32, C:\Program Files\MVTec\HALCON\\FLEXlm\x86sse2-win32, C:\Program Files (x86)\MATLAB\MATLAB Compiler Runtime\v717\runtime\win32, C:\Users\YIXIST\scoop\shims, C:\Users\YIXIST\AppData\Local\Microsoft\WindowsApps, C:\Users\YIXIST\AppData\Local\Microsoft\WinGet\Packages\Fastfetch-cli.Fastfetch_Microsoft.Winget.Source_8wekyb3d8bbwe, D:\nodejs\node_global, C:\Users\YIXIST\AppData\Local\Microsoft\WinGet\Links, C:\Users\YIXIST\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\YIXIST\.dotnet\tools, C:\Users\YIXIST\AppData\Local\Python\bin, C:\Program Files\WindowsApps\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\app\resources]  
+2026-06-18 15:31:24 INFO  (TLSDirectory) TLS callbacks at 14000cd40  
+2026-06-18 15:31:30 WARN  (ExportDataDirectory) Invalid or missing function at 180098100  
+2026-06-18 15:31:40 WARN  (ExportDataDirectory) Invalid or missing function at 180397498  
+2026-06-18 15:31:47 DEBUG (LibraryLookupTable) got exception looking for .exports file (or parsing, etc.)  
+2026-06-18 15:31:47 WARN  (ExportDataDirectory) Invalid or missing function at 1800bf4d8  
+2026-06-18 15:31:47 DEBUG (WEVTResourceDataType) Error processing Provider Element.  
+2026-06-18 15:31:50 INFO  (FileSystemInstanceManager) Removing 42 unused filesystems from cache  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/GenICam/bin/Win64_x64]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///D:/Windows Kits/10/Windows Performance Toolkit]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/GenICam/bin/Win32_i86]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/120/Tools/Binn]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Git/cmd]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/WindowsApps/OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0/app/resources]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/APIDll/Win32]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/dotnet]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Python/bin]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/OpenSSH]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/SysWOW64]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Docker/Docker/resources/bin]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Tailscale]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/GenICam/bin/Win32_i86]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///F:/powershell-setting/PowerShell7/7]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/gsudo/2.6.1]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/APIDll/Win64]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/MVTec/HALCON/bin/x86sse2-win32]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/120/DTS/Binn]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Programs/Microsoft VS Code/bin]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/wbem]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/nodejs]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/scoop/shims]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WinGet/Packages/Fastfetch-cli.Fastfetch_Microsoft.Winget.Source_8wekyb3d8bbwe]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///D:/nodejs/node_global]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/MATLAB/MATLAB Compiler Runtime/v717/runtime/win32]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WindowsApps]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/APIDll/Win32]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/MVTec/HALCON/FLEXlm/x86sse2-win32]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/GenICam/bin/Win64_x64]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/WindowsPowerShell/v1.0]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/.codex/tmp/arg0/codex-arg0s3bwvc]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/APIDll/Win64]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WinGet/Links]  
+2026-06-18 15:31:50 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///F:/HJM-memory/analysis/sample]  
+2026-06-18 15:31:50 INFO  (AutoImporter) Additional info:
+Loading file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe?MD5=cf0f9e643bb5b858c9fa11c4edca3a15...
+------------------------------------------------
+
+Searching 43 paths for library ADVAPI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/advapi32.dll
+Loading file:///C:/Windows/System32/advapi32.dll?MD5=81ee05a6c32dfa32c9f89fdab370fa47...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-HEAP-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-heap-l1-1-0.dll?MD5=24cb81438986e65bcffc6401f62ce1a2...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-heap-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-LOCALE-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-locale-l1-1-0.dll?MD5=23729ffeeb22aaede5fa3e5fd0ce4d33...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-locale-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-MATH-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-math-l1-1-0.dll?MD5=82b2eb7d79f9744f48807302b7fe953a...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-math-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-runtime-l1-1-0.dll?MD5=4b1ff93ff0dfa900c703ac9ee0f52714...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-runtime-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-STDIO-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-stdio-l1-1-0.dll?MD5=e892ac642434fcd2c8f59edf826510d5...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-stdio-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library COMCTL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/comctl32.dll
+Loading file:///C:/Windows/System32/comctl32.dll?MD5=bf5700e5b0ddda53517366b35bcb720a...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\comctl32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library DOG_WINDOWS_X64_3151774.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library GDI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/gdi32.dll
+Loading file:///C:/Windows/System32/gdi32.dll?MD5=15928ba7f26cf88a9ce75d713a45ce24...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\gdi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library GDIPLUS.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/GdiPlus.dll
+Loading file:///C:/Windows/System32/GdiPlus.dll?MD5=6becc3159676ffe5dd6fe6c03d0c82fb...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\gdiplus.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library KERNEL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/kernel32.dll
+Loading file:///C:/Windows/System32/kernel32.dll?MD5=ed34a08426a874773b3c401e91a66f61...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library KSJAPI64.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library MFC140.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/mfc140.dll
+Loading file:///C:/Windows/System32/mfc140.dll?MD5=8266208cd454f7e17a7441ca62e3ea6b...
+Using existing exports file: E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\symbols\win64\mfc140.exports
+WARNING: Existing exports file may not be an exact match.
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library MSIMG32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/msimg32.dll
+Loading file:///C:/Windows/System32/msimg32.dll?MD5=fc65c052ab5c81bc51bd04f659a96133...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\msimg32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library USER32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/user32.dll
+Loading file:///C:/Windows/System32/user32.dll?MD5=c16fa4d47bf9da8d7a907e1fd2ca6c4b...
+[user32.dll]: failed to create WEVTResource at 1800dea70: Failed to resolve data length for WEVTResource
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library VCRUNTIME140.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/vcruntime140.dll
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/vcruntime140.dll?MD5=49f02181843516c1671e616610d24919...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\vcruntime140.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\symbols\win64\mfc140.exports
+Applying cached symbols from KERNEL32.DLL
+Applying cached symbols from USER32.DLL
+Applying cached symbols from GDI32.DLL
+Applying cached symbols from MSIMG32.DLL
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\advapi32.exports
+Applying cached symbols from COMCTL32.DLL
+Applying cached symbols from GDIPLUS.DLL
+Applying cached symbols from VCRUNTIME140.DLL
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-runtime-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-heap-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-stdio-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-math-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-locale-l1-1-0.exports
+Linking the External Programs of 'Phase-shifting DSPI V3.2.exe' to imported libraries...
+  [DOG_WINDOWS_X64_3151774.DLL] -> not found in project
+  [MFC140.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [MSIMG32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+  [GDIPLUS.DLL] -> not found in project
+  [KSJAPI64.DLL] -> not found in project
+  [VCRUNTIME140.DLL] -> not found in project
+  [API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-HEAP-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STDIO-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-MATH-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-LOCALE-L1-1-0.DLL] -> not found in project
+------------------------------------------------
+
+  
+2026-06-18 15:31:50 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-06-18 15:31:51 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:31:51 DEBUG (SymbolServerService) SymbolServerService: querying Program's Import Location - F:\HJM-memory\analysis\sample for DSPI.pdb, a7376f2d-0e94-4a28-b549-32cd32c1ae3d, 71, 0, ???  
+2026-06-18 15:31:51 DEBUG (SymbolServerService) SymbolServerService: got 0 results from Program's Import Location - F:\HJM-memory\analysis\sample  
+2026-06-18 15:31:51 DEBUG (SymbolServerService) SymbolServerService: found 0 matches  
+2026-06-18 15:31:51 INFO  (PdbUniversalAnalyzer) Skipping PDB processing: failed to locate PDB file in configured locations  
+2026-06-18 15:31:51 INFO  (PdbUniversalAnalyzer) Use a script to set the PDB file location. I.e.,
+    PdbAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb")); or
+    PdbUniversalAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb"));
+Or set the symbol server search configuration using:    PdbPlugin.saveSymbolServerServiceConfig(...);
+ This must be done using a pre-script (prior to analysis).  
+2026-06-18 15:31:51 INFO  (PackedDatabaseCache) Packed database cache: F:\HJM-memory\analysis\localappdata\ghidra\packed-db-cache  
+2026-06-18 15:31:51 DEBUG (PackedDatabaseCache) Caching packed database: E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_64.gdt  
+2026-06-18 15:31:51 DEBUG (PackedDatabase) Unpacking database E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_64.gdt -> F:\HJM-memory\analysis\localappdata\ghidra\packed-db-cache\pdbC3350A7C\db.1.gbf  
+2026-06-18 15:31:52 DEBUG (PackedDatabaseCache) Cache update completed: E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_64.gdt  
+2026-06-18 15:31:56 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2026-06-18 15:32:01 INFO  (TypeDescriptorModel) Unprocessed TypeDescriptor: void * __ptr64  
+2026-06-18 15:32:01 INFO  (TypeDescriptorModel) Unprocessed TypeDescriptor: void * __ptr64  
+2026-06-18 15:32:07 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: windows_vs12_64  
+2026-06-18 15:32:07 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: windows_vs12_64  
+2026-06-18 15:32:22 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.615 secs
+    Apply Data Archives                        0.333 secs
+    Call Convention ID                         0.019 secs
+    Call-Fixup Installer                       0.057 secs
+    Create Address Tables                      0.046 secs
+    Create Address Tables - One Time           0.027 secs
+    Create Function                            0.063 secs
+    Data Reference                             0.056 secs
+    Decompiler Parameter ID                    4.880 secs
+    Decompiler Switch Analysis                 4.138 secs
+    Decompiler Switch Analysis - One Time      3.733 secs
+    Demangler Microsoft                        0.497 secs
+    Disassemble Entry Points                   0.875 secs
+    Embedded Media                             0.022 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.640 secs
+    Function Start Search                      0.023 secs
+    Non-Returning Functions - Discovered       0.120 secs
+    Non-Returning Functions - Known            0.022 secs
+    PDB Universal                              0.041 secs
+    Reference                                  0.065 secs
+    Scalar Operand References                  0.161 secs
+    Shared Return Calls                        0.064 secs
+    Stack                                      0.882 secs
+    Subroutine References                      0.035 secs
+    Subroutine References - One Time           0.012 secs
+    Windows x86 PE Exception Handling          2.867 secs
+    Windows x86 PE RTTI Analyzer               1.070 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.045 secs
+    WindowsResourceReference                   8.302 secs
+    x86 Constant Reference Analyzer            1.199 secs
+-----------------------------------------------------
+     Total Time   30 secs
+-----------------------------------------------------
+  
+2026-06-18 15:32:22 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:32:23 INFO  (HeadlessAnalyzer) SCRIPT: F:\HJM-memory\ghidra_scripts\ExportAnalysis.java  
+2026-06-18 15:32:30 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:32:30 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:32:30 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /Phase-shifting DSPI V3.2.exe (DSPI:/Phase-shifting DSPI V3.2.exe)  
+2026-06-18 15:32:30 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  
+2026-06-18 15:33:12 INFO  (LoggingInitialization) Using log config file: jar:file:/E:/Tools/ghidra_11.4.1_PUBLIC_20250731/ghidra_11.4.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-06-18 15:33:12 INFO  (LoggingInitialization) Using log file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\application.log  
+2026-06-18 15:33:12 INFO  (Preferences) Loading user preferences: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\preferences  
+2026-06-18 15:33:12 INFO  (ClassSearcher) Searching for classes...  
+2026-06-18 15:33:12 INFO  (ClassSearcher) Class search complete (867 ms)  
+2026-06-18 15:33:13 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-06-18 15:33:13 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-06-18 15:33:13 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-06-18 15:33:13 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-06-18 15:33:13 INFO  (AnalyzeHeadless) Headless startup complete (3319 ms)  
+2026-06-18 15:33:13 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-06-18 15:33:14 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    F:\HJM-memory\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts  
+2026-06-18 15:33:14 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-06-18 15:33:14 INFO  (HeadlessAnalyzer) Opening existing project: F:\HJM-memory\analysis\ghidra_project\DSPI  
+2026-06-18 15:33:14 INFO  (HeadlessProject) Opening project: F:\HJM-memory\analysis\ghidra_project\DSPI  
+2026-06-18 15:33:17 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:33:21 INFO  (HeadlessAnalyzer) SCRIPT: F:\HJM-memory\ghidra_scripts\ExportStrings.java  
+2026-06-18 15:33:21 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:35:32 INFO  (LoggingInitialization) Using log config file: jar:file:/E:/Tools/ghidra_11.4.1_PUBLIC_20250731/ghidra_11.4.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-06-18 15:35:32 INFO  (LoggingInitialization) Using log file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\application.log  
+2026-06-18 15:35:32 INFO  (Preferences) Loading user preferences: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\preferences  
+2026-06-18 15:35:32 INFO  (ClassSearcher) Searching for classes...  
+2026-06-18 15:35:33 INFO  (ClassSearcher) Class search complete (776 ms)  
+2026-06-18 15:35:33 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-06-18 15:35:33 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-06-18 15:35:33 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-06-18 15:35:33 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-06-18 15:35:34 INFO  (AnalyzeHeadless) Headless startup complete (2895 ms)  
+2026-06-18 15:35:34 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-06-18 15:35:35 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    F:\HJM-memory\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts  
+2026-06-18 15:35:35 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-06-18 15:35:35 INFO  (HeadlessAnalyzer) Creating project: F:\HJM-memory\analysis\ghidra_project_pdb\DSPI_PDB  
+2026-06-18 15:35:35 INFO  (DefaultProject) Creating project: F:\HJM-memory\analysis\ghidra_project_pdb\DSPI_PDB  
+2026-06-18 15:35:35 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-06-18 15:35:35 INFO  (HeadlessAnalyzer)      project: F:\HJM-memory\analysis\ghidra_project_pdb\DSPI_PDB  
+2026-06-18 15:35:35 INFO  (HeadlessAnalyzer) IMPORTING: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:35:37 INFO  (AutoImporter) Using Loader: Portable Executable (PE)  
+2026-06-18 15:35:37 INFO  (AutoImporter) Using Language/Compiler: x86:LE:64:default:windows  
+2026-06-18 15:35:37 INFO  (AutoImporter) Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, F:\powershell-setting\PowerShell7\7, C:\Users\YIXIST\.codex\tmp\arg0\codex-arg0s3bwvc, C:\Program Files\Daheng Imaging\GalaxySDK\GenICam\bin\Win64_x64, C:\Program Files\Daheng Imaging\GalaxySDK\APIDll\Win64, C:\Program Files\Daheng Imaging\GalaxySDK\GenICam\bin\Win32_i86, C:\Program Files\Daheng Imaging\GalaxySDK\APIDll\Win32, C:\Program Files\Daheng Imavision\MER-Series\GenICam\bin\Win64_x64, C:\Program Files\Daheng Imavision\MER-Series\APIDll\Win64, C:\Program Files\Daheng Imavision\MER-Series\GenICam\bin\Win32_i86, C:\Program Files\Daheng Imavision\MER-Series\APIDll\Win32, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\, C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\, C:\Program Files\Microsoft SQL Server\120\Tools\Binn\, C:\Program Files\Microsoft SQL Server\120\DTS\Binn\, C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\gsudo\Current, C:\Program Files\gsudo\2.6.1\, D:\Windows Kits\10\Windows Performance Toolkit\, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\Tailscale\, F:\powershell-setting\PowerShell7\7\, C:\Program Files\MVTec\HALCON\\bin\x86sse2-win32, C:\Program Files\MVTec\HALCON\\FLEXlm\x86sse2-win32, C:\Program Files (x86)\MATLAB\MATLAB Compiler Runtime\v717\runtime\win32, C:\Users\YIXIST\scoop\shims, C:\Users\YIXIST\AppData\Local\Microsoft\WindowsApps, C:\Users\YIXIST\AppData\Local\Microsoft\WinGet\Packages\Fastfetch-cli.Fastfetch_Microsoft.Winget.Source_8wekyb3d8bbwe, D:\nodejs\node_global, C:\Users\YIXIST\AppData\Local\Microsoft\WinGet\Links, C:\Users\YIXIST\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\YIXIST\.dotnet\tools, C:\Users\YIXIST\AppData\Local\Python\bin, C:\Program Files\WindowsApps\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\app\resources]  
+2026-06-18 15:35:38 INFO  (TLSDirectory) TLS callbacks at 14000cd40  
+2026-06-18 15:35:44 WARN  (ExportDataDirectory) Invalid or missing function at 180098100  
+2026-06-18 15:35:51 WARN  (ExportDataDirectory) Invalid or missing function at 180397498  
+2026-06-18 15:35:57 DEBUG (LibraryLookupTable) got exception looking for .exports file (or parsing, etc.)  
+2026-06-18 15:35:58 WARN  (ExportDataDirectory) Invalid or missing function at 1800bf4d8  
+2026-06-18 15:35:58 DEBUG (WEVTResourceDataType) Error processing Provider Element.  
+2026-06-18 15:36:00 INFO  (FileSystemInstanceManager) Removing 42 unused filesystems from cache  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/GenICam/bin/Win64_x64]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///D:/Windows Kits/10/Windows Performance Toolkit]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/GenICam/bin/Win32_i86]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/120/Tools/Binn]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Git/cmd]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/WindowsApps/OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0/app/resources]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/APIDll/Win32]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/dotnet]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Python/bin]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/OpenSSH]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/SysWOW64]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Docker/Docker/resources/bin]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Tailscale]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/GenICam/bin/Win32_i86]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///F:/powershell-setting/PowerShell7/7]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/gsudo/2.6.1]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/APIDll/Win64]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/MVTec/HALCON/bin/x86sse2-win32]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/120/DTS/Binn]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Programs/Microsoft VS Code/bin]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/wbem]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/nodejs]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/scoop/shims]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WinGet/Packages/Fastfetch-cli.Fastfetch_Microsoft.Winget.Source_8wekyb3d8bbwe]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///D:/nodejs/node_global]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/MATLAB/MATLAB Compiler Runtime/v717/runtime/win32]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WindowsApps]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/APIDll/Win32]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/MVTec/HALCON/FLEXlm/x86sse2-win32]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/GenICam/bin/Win64_x64]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/WindowsPowerShell/v1.0]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/.codex/tmp/arg0/codex-arg0s3bwvc]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/APIDll/Win64]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WinGet/Links]  
+2026-06-18 15:36:00 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///F:/HJM-memory/analysis/sample]  
+2026-06-18 15:36:00 INFO  (AutoImporter) Additional info:
+Loading file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe?MD5=cf0f9e643bb5b858c9fa11c4edca3a15...
+------------------------------------------------
+
+Searching 43 paths for library ADVAPI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/advapi32.dll
+Loading file:///C:/Windows/System32/advapi32.dll?MD5=81ee05a6c32dfa32c9f89fdab370fa47...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-HEAP-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-heap-l1-1-0.dll?MD5=24cb81438986e65bcffc6401f62ce1a2...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-heap-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-LOCALE-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-locale-l1-1-0.dll?MD5=23729ffeeb22aaede5fa3e5fd0ce4d33...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-locale-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-MATH-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-math-l1-1-0.dll?MD5=82b2eb7d79f9744f48807302b7fe953a...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-math-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-runtime-l1-1-0.dll?MD5=4b1ff93ff0dfa900c703ac9ee0f52714...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-runtime-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library API-MS-WIN-CRT-STDIO-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/api-ms-win-crt-stdio-l1-1-0.dll?MD5=e892ac642434fcd2c8f59edf826510d5...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-stdio-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library COMCTL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/comctl32.dll
+Loading file:///C:/Windows/System32/comctl32.dll?MD5=bf5700e5b0ddda53517366b35bcb720a...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\comctl32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library DOG_WINDOWS_X64_3151774.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library GDI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/gdi32.dll
+Loading file:///C:/Windows/System32/gdi32.dll?MD5=15928ba7f26cf88a9ce75d713a45ce24...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\gdi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library GDIPLUS.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/GdiPlus.dll
+Loading file:///C:/Windows/System32/GdiPlus.dll?MD5=6becc3159676ffe5dd6fe6c03d0c82fb...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\gdiplus.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library KERNEL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/kernel32.dll
+Loading file:///C:/Windows/System32/kernel32.dll?MD5=ed34a08426a874773b3c401e91a66f61...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library KSJAPI64.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library MFC140.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/mfc140.dll
+Loading file:///C:/Windows/System32/mfc140.dll?MD5=8266208cd454f7e17a7441ca62e3ea6b...
+Using existing exports file: E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\symbols\win64\mfc140.exports
+WARNING: Existing exports file may not be an exact match.
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library MSIMG32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/msimg32.dll
+Loading file:///C:/Windows/System32/msimg32.dll?MD5=fc65c052ab5c81bc51bd04f659a96133...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\msimg32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library USER32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/user32.dll
+Loading file:///C:/Windows/System32/user32.dll?MD5=c16fa4d47bf9da8d7a907e1fd2ca6c4b...
+[user32.dll]: failed to create WEVTResource at 1800dea70: Failed to resolve data length for WEVTResource
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library VCRUNTIME140.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/vcruntime140.dll
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin/vcruntime140.dll?MD5=49f02181843516c1671e616610d24919...
+Using existing exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\vcruntime140.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\symbols\win64\mfc140.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\kernel32.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\user32.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\gdi32.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\msimg32.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\advapi32.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\comctl32.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\gdiplus.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\vcruntime140.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-runtime-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-heap-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-stdio-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-math-l1-1-0.exports
+Applying F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win64\api-ms-win-crt-locale-l1-1-0.exports
+Linking the External Programs of 'Phase-shifting DSPI V3.2.exe' to imported libraries...
+  [DOG_WINDOWS_X64_3151774.DLL] -> not found in project
+  [MFC140.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [MSIMG32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+  [GDIPLUS.DLL] -> not found in project
+  [KSJAPI64.DLL] -> not found in project
+  [VCRUNTIME140.DLL] -> not found in project
+  [API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-HEAP-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STDIO-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-MATH-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-LOCALE-L1-1-0.DLL] -> not found in project
+------------------------------------------------
+
+  
+2026-06-18 15:36:00 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-06-18 15:36:03 INFO  (HeadlessAnalyzer) SCRIPT: F:\HJM-memory\ghidra_scripts\SetPdb.java  
+2026-06-18 15:36:03 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:36:03 INFO  (PdbUniversalAnalyzer) PDB analyzer parsing file: D:\装配工艺\实验\实验\ROE-RI07-激光散斑测量与应用综合实验\B型\软件-总归档\散斑软件-相机相关\BISTU\Phase-shift DSPI install\DSPI.pdb  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagDEC  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagARRAYDESC  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagTYPEDESC  
+2026-06-18 15:36:04 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: tagVARIANT  
+2026-06-18 15:36:04 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: D2D_MATRIX_3X2_F  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/D2D1_DRAWING_STATE_DESCRIPTION  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/D2D1_LAYER_PARAMETERS  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/D2D1_BRUSH_PROPERTIES  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagDBVARIANT  
+2026-06-18 15:36:04 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_devicemodeA  
+2026-06-18 15:36:05 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: tagPROPVARIANT  
+2026-06-18 15:36:05 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/COleControlSite  
+2026-06-18 15:36:06 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_OVERLAPPED  
+2026-06-18 15:36:06 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/CAccessibilityData  
+2026-06-18 15:36:06 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/CMFCRestoredTabInfo  
+2026-06-18 15:36:06 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/PARAFORMAT2  
+2026-06-18 15:36:06 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/CHARFORMAT2A  
+2026-06-18 15:36:09 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/std/basic_istream<wchar_t,std::char_traits<wchar_t>_>  
+2026-06-18 15:36:09 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/std/basic_istream<char,std::char_traits<char>_>  
+2026-06-18 15:36:09 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_STRRET  
+2026-06-18 15:36:10 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_RPC_ASYNC_STATE  
+2026-06-18 15:36:10 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_s__RTTIBaseClassArray  
+2026-06-18 15:36:10 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/D3D10_DEPTH_STENCIL_VIEW_DESC  
+2026-06-18 15:36:10 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/D3D10_SHADER_RESOURCE_VIEW_DESC  
+2026-06-18 15:36:10 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_wireVARIANT  
+2026-06-18 15:36:10 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagPICTDESC  
+2026-06-18 15:36:10 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagTVINSERTSTRUCTA  
+2026-06-18 15:36:11 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagDBPROP  
+2026-06-18 15:36:11 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagDBPROPINFO  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_selchange  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/NET_ADDRESS_INFO_  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagCUSTDATAITEM  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/CHARFORMAT2W  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_NDIS_802_11_TEST  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_DNS_CONNECTION_PROXY_INFO  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagRID_DEVICE_INFO  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/CMFCFilterChunkValueImpl  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagHH_GLOBAL_PROPERTY  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagPOINTER_TYPE_INFO  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagINPUT  
+2026-06-18 15:36:12 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_encorrecttext  
+2026-06-18 15:36:14 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/CMap<ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<char>_>_>,char_const_*,int,int>/CPair  
+2026-06-18 15:36:14 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_devicemodeW  
+2026-06-18 15:36:14 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: _D3DMATRIX  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_MIB_OPAQUE_INFO  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagTVINSERTSTRUCTW  
+2026-06-18 15:36:15 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: tagINPUT_TRANSFORM  
+2026-06-18 15:36:15 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: D2D_MATRIX_5X4_F  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_24  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_64  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/DISPLAYCONFIG_MODE_INFO  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_SLIST_ENTRY  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_clipboardformat  
+2026-06-18 15:36:15 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_48  
+2026-06-18 15:36:15 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: D2D_MATRIX_4X4_F  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_56  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_40  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_16  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_8  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/$_s__RTTIBaseClassArray$_extraBytes_32  
+2026-06-18 15:36:16 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: D2D_MATRIX_4X3_F  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/D2D1_BRUSH_PROPERTIES  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_GS_HANDLER_DATA  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagMIXERLINEW  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_STORAGE_QUERY_DEPENDENT_VOLUME_RESPONSE  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_CERT_ID  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagMIXERCONTROLA  
+2026-06-18 15:36:16 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/READER_SEL_REQUEST  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_BIDI_DATA  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagMIXERCONTROLW  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_DEVICEDUMP_STORAGESTACK_PUBLIC_STATE_RECORD  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/tagMIXERLINEA  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_CERT_ALT_NAME_ENTRY  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_NTFS_STATISTICS  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_TXFS_GET_METADATA_INFO_OUT  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/PrintPropertyValue  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_TXFS_READ_BACKUP_INFORMATION_OUT  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_DISK_PARTITION_INFO  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/mmtime_tag  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_PRINTER_NOTIFY_INFO_DATA  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_SD_GLOBAL_CHANGE_OUTPUT  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_DISK_CACHE_INFORMATION  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/ATL/ATL_PROPVALMAP_ENTRY  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_SERVICE_CUSTOM_SYSTEM_STATE_CHANGE_DATA_ITEM  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_DEVICE_MEDIA_INFO  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_FILE_OBJECTID_BUFFER  
+2026-06-18 15:36:17 ERROR (DefaultCompositeMember) PDB composite reconstruction exceeded maximum allowed depth: tagPROPVARIANT  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_PERSISTENT_RESERVE_COMMAND  
+2026-06-18 15:36:17 WARN  (CppCompositeType) PDB STRUCTURE reconstruction failed to align /DSPI.pdb/_FILE_REMOTE_PROTOCOL_INFO  
+2026-06-18 15:36:17 INFO  (DefaultPdbApplicator) resolveCount: 63559  
+2026-06-18 15:36:17 INFO  (DefaultPdbApplicator) conflictCount: 427  
+2026-06-18 15:36:18 INFO  (DefaultPdbApplicator) PDB Types and Main Symbols Processing Terminated Normally  
+2026-06-18 15:36:18 INFO  (PdbUniversalAnalyzer) PDB Universal: scheduling PDB Function Internals Analysis  
+2026-06-18 15:36:19 INFO  (PackedDatabaseCache) Packed database cache: F:\HJM-memory\analysis\localappdata\ghidra\packed-db-cache  
+2026-06-18 15:36:19 DEBUG (PackedDatabaseCache) Using cached packed database: E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_64.gdt  
+2026-06-18 15:36:23 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2026-06-18 15:36:28 INFO  (TypeDescriptorModel) Unprocessed TypeDescriptor: void * __ptr64  
+2026-06-18 15:36:28 INFO  (TypeDescriptorModel) Unprocessed TypeDescriptor: void * __ptr64  
+2026-06-18 15:36:29 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: windows_vs12_64  
+2026-06-18 15:36:29 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: windows_vs12_64  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_140002a4c: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_140002b6a: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_1400019a6: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_1400024f3: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_140001a5c: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_140002a90: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_140002eb6: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_140002b82: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:34 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: dtor$0: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:35 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_1400025d0: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:35 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_140002cc8: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:35 DEBUG (DecompilerParameterIdCmd)   Failed to decompile function: FUN_1400029c5: 
+Low-level Error: Field field0_0x0 does not fit in structure _OVERLAPPED  
+2026-06-18 15:36:36 INFO  (DefaultPdbApplicator) PDB Function Internals Processing Terminated Normally  
+2026-06-18 15:36:36 INFO  (DefaultPdbApplicator) PDB Applicator Reporting  
+2026-06-18 15:36:36 INFO  (PdbApplicatorMetrics) ===Begin PdbApplicatorMetrics Report===
+Could not apply one or more instances of an unsupported PDB data type: BuildInfoMsType
+Could not apply one or more instances of an unsupported PDB data type: StringIdMsType
+Could not apply one or more instances of an unsupported PDB data type: FunctionIdMsType
+Could not apply one or more instances of an unsupported PDB data type: SubstringListMsType
+Could not apply one or more instances of an unsupported PDB data type: MemberFunctionIdMsType
+Could not apply one or more instances of an unsupported PDB data type: MethodListMsType
+Could not apply one or more instances of an unsupported PDB symbol type: Compile2MsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: ConstantMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: HeapAllocationSiteMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: Compile3MsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: InlinedFunctionCallsiteMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: ObjectNameMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: GlobalThreadStorage32MsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: EnvironmentBlockMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: IndirectCallSiteInfoMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: UnknownX1168MsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: FileStaticMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: BuildInformationMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: InlinedFunctionEndMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: FrameSecurityCookieMsSymbol
+Could not apply one or more instances of an unsupported PDB symbol type: CalleesMsSymbol
+Could not nest one or more instances of a PDB symbol type: HeapAllocationSiteMsSymbol
+Could not nest one or more instances of a PDB symbol type: InlinedFunctionCallsiteMsSymbol
+Could not nest one or more instances of a PDB symbol type: UnknownX1168MsSymbol
+Could not nest one or more instances of a PDB symbol type: FileStaticMsSymbol
+Could not nest one or more instances of a PDB symbol type: InlinedFunctionEndMsSymbol
+Could not nest one or more instances of a PDB symbol type: FrameSecurityCookieMsSymbol
+Could not nest one or more instances of a PDB symbol type: CalleesMsSymbol
+Could not nest one or more instances of a PDB symbol type: IndirectCallSiteInfoMsSymbol
+Could not process C13InlineeLines
+====End PdbApplicatorMetrics Report====
+  
+2026-06-18 15:36:36 INFO  (DefaultPdbApplicator) PDB Applicator Reporting Terminated Normally  
+2026-06-18 15:36:37 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.490 secs
+    Apply Data Archives                        0.315 secs
+    Call Convention ID                         0.012 secs
+    Call-Fixup Installer                       0.053 secs
+    Create Address Tables                      0.057 secs
+    Create Address Tables - One Time           0.034 secs
+    Create Function                            0.041 secs
+    Data Reference                             0.064 secs
+    Decompiler Parameter ID                    3.422 secs
+    Decompiler Switch Analysis                 0.215 secs
+    Decompiler Switch Analysis - One Time      3.359 secs
+    Demangler Microsoft                        0.340 secs
+    Disassemble Entry Points                   1.209 secs
+    Disassemble Entry Points - One Time        0.004 secs
+    Embedded Media                             0.016 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.306 secs
+    Function Start Search                      0.022 secs
+    Non-Returning Functions - Discovered       0.085 secs
+    Non-Returning Functions - Known            0.007 secs
+    PDB Universal                             15.697 secs
+    PDB Universal Function Internals           0.275 secs
+    PDB Universal Reporting                    0.003 secs
+    Reference                                  0.094 secs
+    Scalar Operand References                  0.165 secs
+    Shared Return Calls                        0.057 secs
+    Stack                                      1.016 secs
+    Subroutine References                      0.027 secs
+    Subroutine References - One Time           0.021 secs
+    Windows x86 PE Exception Handling          2.848 secs
+    Windows x86 PE RTTI Analyzer               0.833 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.022 secs
+    WindowsResourceReference                   1.668 secs
+    x86 Constant Reference Analyzer            1.036 secs
+-----------------------------------------------------
+     Total Time   33 secs
+-----------------------------------------------------
+  
+2026-06-18 15:36:37 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:36:37 INFO  (HeadlessAnalyzer) SCRIPT: F:\HJM-memory\ghidra_scripts\ExportAnalysis.java  
+2026-06-18 15:36:43 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:36:43 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///F:/HJM-memory/analysis/sample/Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:36:43 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /Phase-shifting DSPI V3.2.exe (DSPI_PDB:/Phase-shifting DSPI V3.2.exe)  
+2026-06-18 15:36:43 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  
+2026-06-18 15:37:44 INFO  (LoggingInitialization) Using log config file: jar:file:/E:/Tools/ghidra_11.4.1_PUBLIC_20250731/ghidra_11.4.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-06-18 15:37:44 INFO  (LoggingInitialization) Using log file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\application.log  
+2026-06-18 15:37:44 INFO  (Preferences) Loading user preferences: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\preferences  
+2026-06-18 15:37:44 INFO  (ClassSearcher) Searching for classes...  
+2026-06-18 15:37:45 INFO  (ClassSearcher) Class search complete (810 ms)  
+2026-06-18 15:37:45 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-06-18 15:37:45 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-06-18 15:37:45 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-06-18 15:37:45 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-06-18 15:37:46 INFO  (AnalyzeHeadless) Headless startup complete (2928 ms)  
+2026-06-18 15:37:46 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-06-18 15:37:46 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    F:\HJM-memory\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts  
+2026-06-18 15:37:46 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-06-18 15:37:46 INFO  (HeadlessAnalyzer) Opening existing project: F:\HJM-memory\analysis\ghidra_project\DSPI  
+2026-06-18 15:37:46 INFO  (HeadlessProject) Opening project: F:\HJM-memory\analysis\ghidra_project\DSPI  
+2026-06-18 15:37:50 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /Phase-shifting DSPI V3.2.exe  
+2026-06-18 15:37:53 INFO  (HeadlessAnalyzer) SCRIPT: F:\HJM-memory\ghidra_scripts\ExportBytes.java  
+2026-06-18 15:37:53 INFO  (GhidraScript) ExportBytes.java> 14000d8e0  3a 30 30 30 6f 6f 0d 0a 00 00 00 00 00 00 00 00  :000oo..........  
+2026-06-18 15:37:53 INFO  (GhidraScript) ExportBytes.java> 14000d8f0  3a 30 63 30 6f 6f 0d 0a 00 00 00 00 00 00 00 00  :0c0oo..........  
+2026-06-18 15:37:53 INFO  (GhidraScript) ExportBytes.java> 14000d900  3a 31 38 30 6f 6f 0d 0a 00 00 00 00 00 00 00 00  :180oo..........  
+2026-06-18 15:37:53 INFO  (GhidraScript) ExportBytes.java> 14000d910  3a 32 34 30 6f 6f 0d 0a 00 00 00 00 00 00 00 00  :240oo..........  
+2026-06-18 15:37:53 INFO  (GhidraScript) ExportBytes.java> 14000d920  b5 da d2 bb b2 bd cf e0 d2 c6 b3 f6 cf d6 ce ca  ................  
+2026-06-18 15:37:53 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /Phase-shifting DSPI V3.2.exe  
+2026-06-18 17:16:36 INFO  (LoggingInitialization) Using log config file: jar:file:/E:/Tools/ghidra_11.4.1_PUBLIC_20250731/ghidra_11.4.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-06-18 17:16:36 INFO  (LoggingInitialization) Using log file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\application.log  
+2026-06-18 17:16:36 INFO  (Preferences) Loading user preferences: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\preferences  
+2026-06-18 17:16:36 INFO  (ClassSearcher) Searching for classes...  
+2026-06-18 17:16:37 INFO  (ClassSearcher) Class search complete (781 ms)  
+2026-06-18 17:16:37 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-06-18 17:16:37 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-06-18 17:16:37 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-06-18 17:16:37 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-06-18 17:16:58 INFO  (LoggingInitialization) Using log config file: jar:file:/E:/Tools/ghidra_11.4.1_PUBLIC_20250731/ghidra_11.4.1_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-06-18 17:16:58 INFO  (LoggingInitialization) Using log file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\application.log  
+2026-06-18 17:16:58 INFO  (Preferences) Loading user preferences: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\preferences  
+2026-06-18 17:16:58 INFO  (ClassSearcher) Searching for classes...  
+2026-06-18 17:16:59 INFO  (ClassSearcher) Class search complete (727 ms)  
+2026-06-18 17:16:59 INFO  (SSLContextInitializer) Initializing SSL Context  
+2026-06-18 17:16:59 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-06-18 17:16:59 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-06-18 17:16:59 INFO  (ApplicationTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-06-18 17:16:59 INFO  (AnalyzeHeadless) Headless startup complete (1975 ms)  
+2026-06-18 17:16:59 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-06-18 17:17:00 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    F:\HJM-memory\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts  
+2026-06-18 17:17:00 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-06-18 17:17:00 INFO  (HeadlessAnalyzer) Creating project: F:\HJM-memory\analysis\pzt_project\PZT  
+2026-06-18 17:17:00 INFO  (DefaultProject) Creating project: F:\HJM-memory\analysis\pzt_project\PZT  
+2026-06-18 17:17:00 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-06-18 17:17:00 INFO  (HeadlessAnalyzer)      project: F:\HJM-memory\analysis\pzt_project\PZT  
+2026-06-18 17:17:00 INFO  (HeadlessAnalyzer) IMPORTING: file:///F:/HJM-memory/analysis/pzt/PztControl.exe  
+2026-06-18 17:17:01 INFO  (AutoImporter) Using Loader: Portable Executable (PE)  
+2026-06-18 17:17:01 INFO  (AutoImporter) Using Language/Compiler: x86:LE:32:default:windows  
+2026-06-18 17:17:01 INFO  (AutoImporter) Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, F:\powershell-setting\PowerShell7\7, C:\Users\YIXIST\.codex\tmp\arg0\codex-arg0s3bwvc, C:\Program Files\Daheng Imaging\GalaxySDK\GenICam\bin\Win64_x64, C:\Program Files\Daheng Imaging\GalaxySDK\APIDll\Win64, C:\Program Files\Daheng Imaging\GalaxySDK\GenICam\bin\Win32_i86, C:\Program Files\Daheng Imaging\GalaxySDK\APIDll\Win32, C:\Program Files\Daheng Imavision\MER-Series\GenICam\bin\Win64_x64, C:\Program Files\Daheng Imavision\MER-Series\APIDll\Win64, C:\Program Files\Daheng Imavision\MER-Series\GenICam\bin\Win32_i86, C:\Program Files\Daheng Imavision\MER-Series\APIDll\Win32, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\, C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\, C:\Program Files\Microsoft SQL Server\120\Tools\Binn\, C:\Program Files\Microsoft SQL Server\120\DTS\Binn\, C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\gsudo\Current, C:\Program Files\gsudo\2.6.1\, D:\Windows Kits\10\Windows Performance Toolkit\, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\Tailscale\, F:\powershell-setting\PowerShell7\7\, C:\Program Files\MVTec\HALCON\\bin\x86sse2-win32, C:\Program Files\MVTec\HALCON\\FLEXlm\x86sse2-win32, C:\Program Files (x86)\MATLAB\MATLAB Compiler Runtime\v717\runtime\win32, C:\Users\YIXIST\scoop\shims, C:\Users\YIXIST\AppData\Local\Microsoft\WindowsApps, C:\Users\YIXIST\AppData\Local\Microsoft\WinGet\Packages\Fastfetch-cli.Fastfetch_Microsoft.Winget.Source_8wekyb3d8bbwe, D:\nodejs\node_global, C:\Users\YIXIST\AppData\Local\Microsoft\WinGet\Links, C:\Users\YIXIST\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\YIXIST\.dotnet\tools, C:\Users\YIXIST\AppData\Local\Python\bin, C:\Program Files\WindowsApps\OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0\app\resources]  
+2026-06-18 17:17:02 INFO  (TLSDirectory) TLS callbacks at 412020  
+2026-06-18 17:17:04 INFO  (TLSDirectory) TLS callbacks at 10001fec  
+2026-06-18 17:17:05 INFO  (TLSDirectory) TLS callbacks at 100294ac  
+2026-06-18 17:17:05 WARN  (ExportDataDirectory) Invalid or missing function at 105cabac  
+2026-06-18 17:17:09 WARN  (ExportDataDirectory) Invalid or missing function at 100c891c  
+2026-06-18 17:17:09 DEBUG (WEVTResourceDataType) Error processing Provider Element.  
+2026-06-18 17:17:09 INFO  (FileSystemInstanceManager) Removing 42 unused filesystems from cache  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/GenICam/bin/Win64_x64]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///D:/Windows Kits/10/Windows Performance Toolkit]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/GenICam/bin/Win32_i86]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/120/Tools/Binn]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Git/cmd]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/WindowsApps/OpenAI.Codex_26.611.8604.0_x64__2p2nqsd0c76g0/app/resources]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft/jdk-21.0.9.10-hotspot/bin]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/APIDll/Win32]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/dotnet]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Python/bin]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/OpenSSH]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/SysWOW64]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Docker/Docker/resources/bin]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Tailscale]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/GenICam/bin/Win32_i86]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///F:/powershell-setting/PowerShell7/7]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/gsudo/2.6.1]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/APIDll/Win64]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/MVTec/HALCON/bin/x86sse2-win32]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///F:/HJM-memory/analysis/pzt]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/120/DTS/Binn]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Programs/Microsoft VS Code/bin]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/wbem]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/nodejs]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/scoop/shims]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WinGet/Packages/Fastfetch-cli.Fastfetch_Microsoft.Winget.Source_8wekyb3d8bbwe]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///D:/nodejs/node_global]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files (x86)/MATLAB/MATLAB Compiler Runtime/v717/runtime/win32]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WindowsApps]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imavision/MER-Series/APIDll/Win32]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/MVTec/HALCON/FLEXlm/x86sse2-win32]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/GenICam/bin/Win64_x64]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32/WindowsPowerShell/v1.0]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/.codex/tmp/arg0/codex-arg0s3bwvc]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Program Files/Daheng Imaging/GalaxySDK/APIDll/Win64]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Windows/System32]  
+2026-06-18 17:17:09 DEBUG (FileSystemInstanceManager) Closing unused filesystem [file:///C:/Users/YIXIST/AppData/Local/Microsoft/WinGet/Links]  
+2026-06-18 17:17:09 INFO  (AutoImporter) Additional info:
+Loading file:///F:/HJM-memory/analysis/pzt/PztControl.exe?MD5=7dc0f946a4aef4844a192ea302f7a2b8...
+------------------------------------------------
+
+Searching 43 paths for library KERNEL32.DLL...
+Loading file:///C:/Windows/SysWOW64/kernel32.dll?MD5=0edfe6de135977bf758d2a5ec3fc3929...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win32\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library LIBGCC_S_DW2-1.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library LIBSTDC++-6.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library LIBWINPTHREAD-1.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library MSVCRT.DLL...
+Loading file:///C:/Windows/SysWOW64/msvcrt.dll?MD5=8895a4369dd82a99889d8e325d634275...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win32\msvcrt.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library QT5CORE.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library QT5QML.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library QT5QUICKWIDGETS.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library QT5SERIALPORT.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library QT5WIDGETS.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 43 paths for library SHELL32.DLL...
+Loading file:///C:/Windows/SysWOW64/shell32.dll?MD5=2f3b50205db9dee848ea45d0c43bbec7...
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win32\shell32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 43 paths for library USER32.DLL...
+Loading file:///C:/Windows/SysWOW64/user32.dll?MD5=bb32ca96fcc0c5c9e81e7cb0c89c508e...
+[user32.dll]: failed to create WEVTResource at 100e5a70: Failed to resolve data length for WEVTResource
+Created exports file: F:\HJM-memory\analysis\appdata\ghidra\ghidra_11.4.1_PUBLIC\symbols\win32\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying cached symbols from KERNEL32.DLL
+Applying cached symbols from MSVCRT.DLL
+Applying cached symbols from SHELL32.DLL
+Applying cached symbols from USER32.DLL
+Linking the External Programs of 'PztControl.exe' to imported libraries...
+  [QT5CORE.DLL] -> not found in project
+  [QT5QML.DLL] -> not found in project
+  [QT5QUICKWIDGETS.DLL] -> not found in project
+  [QT5SERIALPORT.DLL] -> not found in project
+  [QT5WIDGETS.DLL] -> not found in project
+  [LIBGCC_S_DW2-1.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [MSVCRT.DLL] -> not found in project
+  [LIBWINPTHREAD-1.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [LIBSTDC++-6.DLL] -> not found in project
+------------------------------------------------
+
+  
+2026-06-18 17:17:09 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-06-18 17:17:10 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///F:/HJM-memory/analysis/pzt/PztControl.exe  
+2026-06-18 17:17:10 ERROR (MingwRelocationAnalyzer) MinGW pseudo-relocation list not found  
+2026-06-18 17:17:10 INFO  (PdbUniversalAnalyzer) Skipping PDB processing: missing PDB information in program metadata  
+2026-06-18 17:17:10 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2026-06-18 17:17:17 INFO  (PackedDatabaseCache) Packed database cache: F:\HJM-memory\analysis\localappdata\ghidra\packed-db-cache  
+2026-06-18 17:17:17 DEBUG (PackedDatabaseCache) Caching packed database: E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_32.gdt  
+2026-06-18 17:17:17 DEBUG (PackedDatabase) Unpacking database E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_32.gdt -> F:\HJM-memory\analysis\localappdata\ghidra\packed-db-cache\pdbC79A1655\db.1.gbf  
+2026-06-18 17:17:17 DEBUG (PackedDatabaseCache) Cache update completed: E:\Tools\ghidra_11.4.1_PUBLIC_20250731\ghidra_11.4.1_PUBLIC\Ghidra\Features\Base\data\typeinfo\win32\windows_vs12_32.gdt  
+2026-06-18 17:17:18 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: windows_vs12_32  
+2026-06-18 17:17:18 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table: LIBSTDC++-6.DLL::__cxxabiv1::__class_type_info::vtable  
+2026-06-18 17:17:18 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table: LIBSTDC++-6.DLL::__cxxabiv1::__si_class_type_info::vtable  
+2026-06-18 17:17:18 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table: LIBSTDC++-6.DLL::__cxxabiv1::__vmi_class_type_info::vtable  
+2026-06-18 17:17:22 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.284 secs
+    Apply Data Archives                        0.812 secs
+    Call Convention ID                         0.000 secs
+    Call-Fixup Installer                       0.031 secs
+    Create Address Tables                      0.011 secs
+    Create Address Tables - One Time           0.015 secs
+    Create Function                            0.031 secs
+    Data Reference                             0.024 secs
+    Decompiler Parameter ID                    2.902 secs
+    Decompiler Switch Analysis                 5.937 secs
+    Decompiler Switch Analysis - One Time      0.560 secs
+    Demangler GNU                              0.332 secs
+    Demangler Microsoft                        0.013 secs
+    Disassemble Entry Points                   0.130 secs
+    Embedded Media                             0.019 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.113 secs
+    Function Start Pre Search                  0.016 secs
+    Function Start Search                      0.016 secs
+    Function Start Search After Code           0.035 secs
+    Function Start Search After Data           0.004 secs
+    MinGW Relocations                          0.001 secs
+    Non-Returning Functions - Discovered       0.027 secs
+    Non-Returning Functions - Known            0.002 secs
+    PDB Universal                              0.003 secs
+    Reference                                  0.036 secs
+    Scalar Operand References                  0.045 secs
+    Shared Return Calls                        0.017 secs
+    Stack                                      0.141 secs
+    Subroutine References                      0.059 secs
+    Subroutine References - One Time           0.002 secs
+    WindowsResourceReference                   0.414 secs
+    X86 Function Callee Purge                  0.007 secs
+    x86 Constant Reference Analyzer            0.272 secs
+-----------------------------------------------------
+     Total Time   12 secs
+-----------------------------------------------------
+  
+2026-06-18 17:17:22 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///F:/HJM-memory/analysis/pzt/PztControl.exe  
+2026-06-18 17:17:22 INFO  (HeadlessAnalyzer) SCRIPT: F:\HJM-memory\ghidra_scripts\ExportAnalysis.java  
+2026-06-18 17:17:24 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///F:/HJM-memory/analysis/pzt/PztControl.exe  
+2026-06-18 17:17:24 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///F:/HJM-memory/analysis/pzt/PztControl.exe  
+2026-06-18 17:17:24 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /PztControl.exe (PZT:/PztControl.exe)  
+2026-06-18 17:17:24 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  

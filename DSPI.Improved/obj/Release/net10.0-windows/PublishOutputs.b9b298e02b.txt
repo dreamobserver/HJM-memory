@@ -1,0 +1,8 @@
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\DSPI.Improved.exe
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\KSJApi64.dll
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\KSJApi.ini
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\README.md
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\DSPI.Improved.dll
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\DSPI.Improved.deps.json
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\DSPI.Improved.runtimeconfig.json
+F:\HJM-memory\dist\DSPI.Improved-1.0.2\DSPI.Improved.pdb
