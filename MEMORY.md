@@ -169,9 +169,6 @@
 ## 会话存档（CherryClaw 对话自动保存）
 > 增量存档：cron 每 30 分钟触发，只保存新增消息，无新增则跳过。
 > 格式：`sessions/segment-YYYY-MM-DD-N.md`（增量片段）+ `result/session-YYYY-MM-DD-N.md`（完整存档）
-- [segment-2026-06-11-44](sessions/segment-2026-06-11-44.md) — 涵盖第44-45轮（含"Continue"中断 + 第四十四次存档指令）
-- [segment-2026-06-11-45](sessions/segment-2026-06-11-45.md) — 第四十五次手动触发增量存档
-- [segment-2026-06-11-46](sessions/segment-2026-06-11-46.md) — 第四十六次手动触发增量存档
 - [segment-2026-06-11-47](sessions/segment-2026-06-11-47.md) — 第四十七次手动触发增量存档
 - [segment-2026-06-11-48](sessions/segment-2026-06-11-48.md) — 第四十八次手动触发增量存档
 - [segment-2026-06-11-49](sessions/segment-2026-06-11-49.md) — 第四十九次手动触发增量存档（第50轮里程碑）
@@ -269,5 +266,8 @@
 - [segment-2026-06-18-42](sessions/segment-2026-06-18-42.md) — 第44次
 - [segment-2026-06-18-43](sessions/segment-2026-06-18-43.md) — 第45次
 - [segment-2026-06-18-44](sessions/segment-2026-06-18-44.md) — 第46次
+- [segment-2026-06-18-45](sessions/segment-2026-06-18-45.md) — 第47次
+- [segment-2026-06-18-46](sessions/segment-2026-06-18-46.md) — 第48次
+- [segment-2026-06-18-47](sessions/segment-2026-06-18-47.md) — 第49次
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
