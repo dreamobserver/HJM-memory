@@ -1,0 +1,94 @@
+# Codex Sessions Export
+
+Generated: 2026-06-23T07:48:23.027492+00:00
+Source: `C:\Users\YIXIST\.codex\sessions`
+Sessions: 22
+
+- [你现在是我的专属网络小说创作管家。请立刻使用终端工具执行命令 git clone [https://github.com/showdownagain/wangluoxiaoshuozhushou.git](https://github.c...](2026-06-11 - 你现在是我的专属网络小说创作管家。请立刻使用终端工具执行命令 git clone [https github.com showdownagain - 6e80ebbd2a70.md)
+  - session_id: `019eb52b-53e4-7671-93ce-6e80ebbd2a70`
+  - timestamp: `2026-06-11T05:33:01.172Z`
+  - cwd: `F:\Ai-talk\aitext`
+- [欢迎回来，我们继续一起进行软件重构你的交接文件在[D:\machine vision\！机器视觉实验软件源代码\机器视觉综合实验软件主程序代码]文件名为Project_Checkpoint.md仔细阅读然后给出你接下来准备怎么做](2026-06-11 - 欢迎回来，我们继续一起进行软件重构你的交接文件在[D machine vision ！机器视觉实验软件源代码 机器视觉综合实验软件主程序代码]文 - 75a3b7b94788.md)
+  - session_id: `019eb52b-7ba1-7422-a8aa-75a3b7b94788`
+  - timestamp: `2026-06-11T05:33:11.343Z`
+  - cwd: `D:\machine vision\！机器视觉实验软件源代码\机器视觉综合实验软件主程序代码`
+- [【角色设定】 你是一名 C++ 项目配置专家，正在协助我修复 Visual Studio 2022 项目的编译环境。 我的目标是：**完全摆脱对 `HALCONROOT` 环境变量的依赖**，将所有使用该变量的路径替换为硬编码的绝对路径。...](2026-06-11 - 【角色设定】 你是一名 C++ 项目配置专家，正在协助我修复 Visual Studio 2022 项目的编译环境。 我的目标是： 完全摆脱对 - 63d2ba0bccf0.md)
+  - session_id: `019eb52b-a34a-7570-8330-63d2ba0bccf0`
+  - timestamp: `2026-06-11T05:33:21.497Z`
+  - cwd: `D:\machine vision\！机器视觉实验软件源代码\机器视觉综合实验软件主程序代码`
+- [你现在的任务是充当高级自动化流水线工程师！帮我写一个强大的 Windows PowerShell 自动化监控和转换脚本，并在前台窗口实时打印华丽的彩色进度日志。 🛑 关键前置依赖处理： 脚本启动时，必须检测系统 PATH 中是否存在 ff...](2026-06-11 - 你现在的任务是充当高级自动化流水线工程师！帮我写一个强大的 Windows PowerShell 自动化监控和转换脚本，并在前台窗口实时打印华丽 - 1ed6ecfb9546.md)
+  - session_id: `019eb52b-cb49-7182-b83f-1ed6ecfb9546`
+  - timestamp: `2026-06-11T05:33:26.729Z`
+  - cwd: `C:\Users\YIXIST`
+- [resume](2026-06-11 - resume - 3ec74216eb93.md)
+  - session_id: `019eb52b-cbfa-7942-ae87-3ec74216eb93`
+  - timestamp: `2026-06-11T05:33:26.907Z`
+  - cwd: `C:\Users\YIXIST`
+- [The following is the Codex agent history whose request action you are assessing. Treat the transcript, tool call argume...](2026-06-11 - The following is the Codex agent history whose request action you are as - 928a69fb28eb.md)
+  - session_id: `019eb539-df44-7ce3-9ae8-928a69fb28eb`
+  - timestamp: `2026-06-11T05:48:54.418Z`
+  - cwd: `D:\machine vision\！机器视觉实验软件源代码\机器视觉综合实验软件主程序代码`
+- [遍历文件夹阅读我与deepseek，Gemini的对话记录（主要是redirect文件夹）](2026-06-15 - 遍历文件夹阅读我与deepseek，Gemini的对话记录（主要是redirect文件夹） - 87c7126dc240.md)
+  - session_id: `019ec8dc-11f6-7e91-b0d3-87c7126dc240`
+  - timestamp: `2026-06-15T01:18:51.275Z`
+  - cwd: `F:\HJM-memory`
+- [The following is the Codex agent history whose request action you are assessing. Treat the transcript, tool call argume...](2026-06-15 - The following is the Codex agent history whose request action you are as - 016aecec1ebe.md)
+  - session_id: `019ec9a7-228d-7502-bbb5-016aecec1ebe`
+  - timestamp: `2026-06-15T05:00:37.724Z`
+  - cwd: `F:\HJM-memory`
+- [所以是背景光过亮干扰是吗？](2026-06-15 - 所以是背景光过亮干扰是吗？ - 86b66aa376a2.md)
+  - session_id: `019eca1e-ccb5-76e3-b9be-86b66aa376a2`
+  - timestamp: `2026-06-15T07:11:16.671Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-15\files-mentioned-by-the-user-roe`
+- [https://shiyun.cohenjikan.com/ 评价一下这个个人项目](2026-06-16 - https shiyun.cohenjikan.com 评价一下这个个人项目 - 1ca8aeac9972.md)
+  - session_id: `019ecee1-770c-78c3-94bb-1ca8aeac9972`
+  - timestamp: `2026-06-16T05:22:23.117Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-16\https-shiyun-cohenjikan-com`
+- [The following is the Codex agent history whose request action you are assessing. Treat the transcript, tool call argume...](2026-06-16 - The following is the Codex agent history whose request action you are as - 6f430085ce6e.md)
+  - session_id: `019ecee2-3fd9-78c1-b2c5-6f430085ce6e`
+  - timestamp: `2026-06-16T05:23:14.522Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-16\https-shiyun-cohenjikan-com`
+- [有一个消息说米哈游的一篇论文让100个ai角色在同一个世界观生活10年。还写了论文是不是真的](2026-06-16 - 有一个消息说米哈游的一篇论文让100个ai角色在同一个世界观生活10年。还写了论文是不是真的 - f412328c0779.md)
+  - session_id: `019ecefe-b5fa-7d22-9b18-f412328c0779`
+  - timestamp: `2026-06-16T05:54:19.770Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-16\100-ai-10`
+- [The following is the Codex agent history whose request action you are assessing. Treat the transcript, tool call argume...](2026-06-16 - The following is the Codex agent history whose request action you are as - 21b0de955412.md)
+  - session_id: `019eceff-b39a-7963-9fb0-21b0de955412`
+  - timestamp: `2026-06-16T05:55:24.698Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-16\100-ai-10`
+- [颜色变一下吧浅绿，天蓝渐变](2026-06-17 - 颜色变一下吧浅绿，天蓝渐变 - bec1af737ddb.md)
+  - session_id: `019ed353-99c3-7371-8bbf-bec1af737ddb`
+  - timestamp: `2026-06-17T02:05:31.971Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-17\files-mentioned-by-the-user-codex`
+- [rollout-2026-06-17T10-28-59-019ed369-14ed-7ef2-8f3b-6c3c54acf8ea](2026-06-17 - rollout-2026-06-17T10-28-59-019ed369-14ed-7ef2-8f3b-6c3c54acf8ea - 6c3c54acf8ea.md)
+  - session_id: `019ed369-14ed-7ef2-8f3b-6c3c54acf8ea`
+  - timestamp: `2026-06-17T02:28:59.757Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-17\files-mentioned-by-the-user-codex-2`
+- [The following is the Codex agent history whose request action you are assessing. Treat the transcript, tool call argume...](2026-06-18 - The following is the Codex agent history whose request action you are as - 053c54b74eec.md)
+  - session_id: `019ed8e3-c8c3-7b31-bb58-053c54b74eec`
+  - timestamp: `2026-06-18T04:01:07.267Z`
+  - cwd: `C:\Users\YIXIST\Documents\Codex\2026-06-15\files-mentioned-by-the-user-roe`
+- [改进一下软件使得你说的这些都解决并且我要加一个“一键滤波x5“，‘一键滤波x10”的按钮现在滤波要一个一个按](2026-06-18 - 改进一下软件使得你说的这些都解决并且我要加一个“一键滤波x5“，‘一键滤波x10”的按钮现在滤波要一个一个按 - afeda86872e5.md)
+  - session_id: `019ed99f-6e24-7860-b5dc-afeda86872e5`
+  - timestamp: `2026-06-18T07:26:09.853Z`
+  - cwd: `F:\HJM-memory`
+- [The following is the Codex agent history whose request action you are assessing. Treat the transcript, tool call argume...](2026-06-18 - The following is the Codex agent history whose request action you are as - dc5acdc7e26c.md)
+  - session_id: `019ed9b8-6135-7db2-a080-dc5acdc7e26c`
+  - timestamp: `2026-06-18T07:53:24.943Z`
+  - cwd: `F:\HJM-memory`
+- [8触点FPC是什么](2026-06-22 - 8触点FPC是什么 - 0049baf37551.md)
+  - session_id: `019eedd0-d46d-7362-a603-0049baf37551`
+  - timestamp: `2026-06-22T05:32:31.650Z`
+  - cwd: `F:\HJM-memory`
+- [[https://github.com/Javis603/token-monitor/tree/main](https://github.com/Javis603/token-monitor/tree/main)准备部署这个token监控...](2026-06-23 - [https github.com Javis603 token-monitor tree main](https github.com Jav - e8f725ec62b2.md)
+  - session_id: `019ef204-d79b-7fb0-94f1-e8f725ec62b2`
+  - timestamp: `2026-06-23T01:07:49.163Z`
+  - cwd: `D:\machine vision\！机器视觉实验软件源代码\机器视觉综合实验软件主程序代码`
+- [现在我要更换gpt账号使用公司发放的账号今天，这个号plus就要过期了。但是我们的聊天记录与数据我想保留并且在公司账户上运行该怎么办](2026-06-23 - 现在我要更换gpt账号使用公司发放的账号今天，这个号plus就要过期了。但是我们的聊天记录与数据我想保留并且在公司账户上运行该怎么办 - 77239af53a7a.md)
+  - session_id: `019ef368-e26e-7041-849d-77239af53a7a`
+  - timestamp: `2026-06-23T07:36:42.751Z`
+  - cwd: `D:\machine vision\！机器视觉实验软件源代码\机器视觉综合实验软件主程序代码`
+- [The following is the Codex agent history whose request action you are assessing. Treat the transcript, tool call argume...](2026-06-23 - The following is the Codex agent history whose request action you are as - 03ac5a0dc00a.md)
+  - session_id: `019ef36e-83bd-7cb3-a44e-03ac5a0dc00a`
+  - timestamp: `2026-06-23T07:42:51.725Z`
+  - cwd: `D:\machine vision\！机器视觉实验软件源代码\机器视觉综合实验软件主程序代码`
