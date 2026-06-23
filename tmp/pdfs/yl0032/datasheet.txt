@@ -1,0 +1,399 @@
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                YL0032          white       OLED       Panel                      
+                                                                                  
+                                                                                  
+                                                                                  
+                               Datasheet                                          
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                  Supplier：   Gu An Yeolight Technology Co.,Ltd.                  
+                                                                                  
+                     Version ：  A01                                               
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                 Maker            Reviewer              Approver                  
+                                                                                  
+                                                                                  
+                                                                                  
+                 Guo lixue        Zhu yingguang                                   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+===== PAGE =====
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          Issue & Revision History                                                
+                                                                                  
+                                                                                  
+             No.  Description                               Date   Version        
+             1    Issued                                   2021.12.6 A01          
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+===== PAGE =====
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                     Contents                                     
+                                                                                  
+          1. Basic information ........................................................................................................................................ 4
+          2. Optical characteristic ................................................................................................................................... 4
+                                                                                  
+          3. Electrical characteristic ............................................................................................................................... 4
+          4. Relative Spectral Emission – V (λ) ............................................................................................................. 5
+          5. J-V curve ..................................................................................................................................................... 5
+          6. B-J curve ..................................................................................................................................................... 6
+          7. Appearance Criteria ..................................................................................................................................... 6
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+===== PAGE =====
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          1. Basic information                                                    
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                 Current          
+                                                Name   Area(mm2)                  
+                                                                 (mA)             
+                                                 A1       23      1.8             
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          Note: 1.The panel contains 256 segments, each has the same luminous area. The data is taking A1 as an
+                                                                                  
+          example.                                                                
+                                                                                  
+          2. Optical characteristic                                               
+                                                                                  
+                                                                                  
+                                                                                  
+              Parameter      Unit         Min.        Typ.        Max.            
+            Brightness（25℃）  cd/m2        2500        3000        3500            
+                CCT           K           6250        6550        6850            
+              CIE-x 1931     CIE-x        0.305       0.315       0.325           
+              CIE-y 1931     CIE-y        0.298       0.308       0.318           
+                                                                                  
+                                                                                  
+          3. Electrical characteristic                                            
+                                                                                  
+                                                                                  
+                     Parameter         Unit    Min.      Typ.      Max.           
+                Storage temperature range ℃     -20       -         60            
+                Storage humidity range %RH       -        -         70            
+           Electrical Operating temperature range ℃ 0     -         40            
+                Operating humidity range %RH     -        -         70            
+                Forward voltage (25℃)   V       10.1      10.7     11.3           
+                Brightness（25℃）        cd/m2    2500      3000     3500           
+                CCT                     K       6250      6550     6850           
+           Optical                                                                
+                CIE-x 1931             CIE-x    0.305    0.315     0.325          
+                CIE-y 1931             CIE-y    0.298    0.308     0.318          
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+
+===== PAGE =====
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          4. Relative Spectral Emission – V (λ)                                   
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                    1.2                                                           
+                                                                                  
+                    1.0                                                           
+                                                                                  
+                    0.8                                                           
+                                                                                  
+                  )                                                               
+                  .u 0.6                                                          
+                  .a                                                              
+                  (                                                               
+                  I                                                               
+                    0.4                                                           
+                    0.2                                                           
+                    0.0                                                           
+                      380  430 480  530 580  630 680  730 780  830                
+                                        Wavelength(nm)                            
+                                                                                  
+          Note：The curve is based on one segment.                                 
+                                                                                  
+                                                                                  
+          5. J-V curve                                                            
+                                                                                  
+                                                                                  
+                                                                                  
+                   120                                                            
+                                                                                  
+                   100                                                            
+                                                                                  
+                    80                                                            
+                 )                                                                
+                 2                                                                
+                 m                                                                
+                 /A                                                               
+                 (                                                                
+                 y                                                                
+                    60                                                            
+                 tis                                                              
+                 in                                                               
+                 e                                                                
+                 D  40                                                            
+                 tn                                                               
+                 e                                                                
+                 r                                                                
+                 r                                                                
+                 u                                                                
+                 C  20                                                            
+                    0                                                             
+                      0      2      4     6      8      10    12                  
+                                       Voltage(V)                                 
+                                                                                  
+                                                                                  
+
+===== PAGE =====
+
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+          6. B-J curve                                                            
+                                                                                  
+                                                                                  
+                                                                                  
+                   4500                                                           
+                                                                                  
+                   4000                                                           
+                   3500                                                           
+                                                                                  
+                   3000                                                           
+                  )                                                               
+                  2                                                               
+                  m                                                               
+                  /d 2500                                                         
+                  c                                                               
+                  (                                                               
+                  s s2000                                                         
+                  e                                                               
+                  n                                                               
+                  th                                                              
+                  g1500                                                           
+                  ir                                                              
+                  B                                                               
+                   1000                                                           
+                    500                                                           
+                      0                                                           
+                       0     20     40    60     80    100   120                  
+                                       Current Density (A/m2)                     
+          7. Appearance Criteria                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  
+                                                                                  

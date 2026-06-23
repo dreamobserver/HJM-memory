@@ -132,39 +132,39 @@
 - [other-memory/chat(79).md](other-memory/chat(79).md) — 图片数字倍数计算请求
 
 ## Codex 导出 (GPT Plus 月抛号遗产·2026-06-23)
-> 来源: `codex-export/` | 22 会话 | 3.3MB | 时间跨度 06-11 → 06-23
-> 用途: 喂入 CherryStudio 个人知识库 | 详情: [codex-export/README.md](codex-export/README.md)
+> 来源: `raw-memory/codex/` | 22 会话 | 3.3MB | 时间跨度 06-11 → 06-23
+> 用途: 喂入 CherryStudio 个人知识库 | 详情: [raw-memory/codex/README.md](raw-memory/codex/README.md)
 
 ### 机器视觉 & C++ 开发
-- [HALCON 路径去环境变量 (1.2MB)](codex-export/2026-06-11%20-%20【角色设定】%20你是一名%20C++%20项目配置专家，正在协助我修复%20Visual%20Studio%202022%20项目的编译环境。%20我的目标是：%20完全摆脱对%20-%2063d2ba0bccf0.md) — VS2022 项目配置硬编码，摆脱 HALCONROOT 环境变量
-- [机器视觉软件重构](codex-export/2026-06-11%20-%20欢迎回来，我们继续一起进行软件重构你的交接文件在[D%20machine%20vision%20！机器视觉实验软件源代码%20机器视觉综合实验软件主程序代码]文%20-%2075a3b7b94788.md) — Project_Checkpoint 交接 + 重构方案
-- [机器视觉代码评估](codex-export/2026-06-11%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20928a69fb28eb.md) — 代码审查/评估
-- [机器视觉软件问题诊断](codex-export/2026-06-18%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20053c54b74eec.md) — 软件问题排查
-- [一键滤波 x5/x10 按钮](codex-export/2026-06-18%20-%20改进一下软件使得你说的这些都解决并且我要加一个“一键滤波x5“，‘一键滤波x10”的按钮现在滤波要一个一个按%20-%20afeda86872e5.md) — UI 功能增强
-- [背景光过亮干扰](codex-export/2026-06-15%20-%20所以是背景光过亮干扰是吗？%20-%2086b66aa376a2.md) — 光学干扰分析
+- [HALCON 路径去环境变量 (1.2MB)](raw-memory/codex/2026-06-11%20-%20【角色设定】%20你是一名%20C++%20项目配置专家，正在协助我修复%20Visual%20Studio%202022%20项目的编译环境。%20我的目标是：%20完全摆脱对%20-%2063d2ba0bccf0.md) — VS2022 项目配置硬编码，摆脱 HALCONROOT 环境变量
+- [机器视觉软件重构](raw-memory/codex/2026-06-11%20-%20欢迎回来，我们继续一起进行软件重构你的交接文件在[D%20machine%20vision%20！机器视觉实验软件源代码%20机器视觉综合实验软件主程序代码]文%20-%2075a3b7b94788.md) — Project_Checkpoint 交接 + 重构方案
+- [机器视觉代码评估](raw-memory/codex/2026-06-11%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20928a69fb28eb.md) — 代码审查/评估
+- [机器视觉软件问题诊断](raw-memory/codex/2026-06-18%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20053c54b74eec.md) — 软件问题排查
+- [一键滤波 x5/x10 按钮](raw-memory/codex/2026-06-18%20-%20改进一下软件使得你说的这些都解决并且我要加一个“一键滤波x5“，‘一键滤波x10”的按钮现在滤波要一个一个按%20-%20afeda86872e5.md) — UI 功能增强
+- [背景光过亮干扰](raw-memory/codex/2026-06-15%20-%20所以是背景光过亮干扰是吗？%20-%2086b66aa376a2.md) — 光学干扰分析
 
 ### 网文 & 创意写作
-- [网文创作管家](codex-export/2026-06-11%20-%20你现在是我的专属网络小说创作管家。请立刻使用终端工具执行命令%20git%20clone%20[https%20github.com%20showdownagain%20-%206e80ebbd2a70.md) — Git clone 网文助手 + 世界书条目
+- [网文创作管家](raw-memory/codex/2026-06-11%20-%20你现在是我的专属网络小说创作管家。请立刻使用终端工具执行命令%20git%20clone%20[https%20github.com%20showdownagain%20-%206e80ebbd2a70.md) — Git clone 网文助手 + 世界书条目
 
 ### PowerShell 自动化
-- [自动化监控转换脚本](codex-export/2026-06-11%20-%20你现在的任务是充当高级自动化流水线工程师！帮我写一个强大的%20Windows%20PowerShell%20自动化监控和转换脚本，并在前台窗口实时打印华丽%20-%201ed6ecfb9546.md) — ffmpeg 依赖检测 + 彩色日志
+- [自动化监控转换脚本](raw-memory/codex/2026-06-11%20-%20你现在的任务是充当高级自动化流水线工程师！帮我写一个强大的%20Windows%20PowerShell%20自动化监控和转换脚本，并在前台窗口实时打印华丽%20-%201ed6ecfb9546.md) — ffmpeg 依赖检测 + 彩色日志
 
 ### HJM-memory 操作记录
-- [遍历 DeepSeek/Gemini 对话](codex-export/2026-06-15%20-%20遍历文件夹阅读我与deepseek，Gemini的对话记录（主要是redirect文件夹）%20-%2087c7126dc240.md) — 首次遍历 redirects 文件夹
-- [HJM-memory 评估 (续)](codex-export/2026-06-15%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20016aecec1ebe.md) — 后续操作
-- [HJM-memory 后续](codex-export/2026-06-18%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20dc5acdc7e26c.md) — 继续操作
+- [遍历 DeepSeek/Gemini 对话](raw-memory/codex/2026-06-15%20-%20遍历文件夹阅读我与deepseek，Gemini的对话记录（主要是redirect文件夹）%20-%2087c7126dc240.md) — 首次遍历 redirects 文件夹
+- [HJM-memory 评估 (续)](raw-memory/codex/2026-06-15%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20016aecec1ebe.md) — 后续操作
+- [HJM-memory 后续](raw-memory/codex/2026-06-18%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%20dc5acdc7e26c.md) — 继续操作
 
 ### Token 监控
-- [token-monitor 部署](codex-export/2026-06-23%20-%20[https%20github.com%20Javis603%20token-monitor%20tree%20main](https%20github.com%20Jav%20-%20e8f725ec62b2.md) — 部署 token 用量监控工具
+- [token-monitor 部署](raw-memory/codex/2026-06-23%20-%20[https%20github.com%20Javis603%20token-monitor%20tree%20main](https%20github.com%20Jav%20-%20e8f725ec62b2.md) — 部署 token 用量监控工具
 
 ### 个人项目 & AI 行业
-- [shiyun.cohenjikan.com 评价](codex-export/2026-06-16%20-%20https%20shiyun.cohenjikan.com%20评价一下这个个人项目%20-%201ca8aeac9972.md) — 个人网站评估
-- [米哈游 100 AI 论文](codex-export/2026-06-16%20-%20有一个消息说米哈游的一篇论文让100个ai角色在同一个世界观生活10年。还写了论文是不是真的%20-%20f412328c0779.md) — 论文真伪与细节追查
+- [shiyun.cohenjikan.com 评价](raw-memory/codex/2026-06-16%20-%20https%20shiyun.cohenjikan.com%20评价一下这个个人项目%20-%201ca8aeac9972.md) — 个人网站评估
+- [米哈游 100 AI 论文](raw-memory/codex/2026-06-16%20-%20有一个消息说米哈游的一篇论文让100个ai角色在同一个世界观生活10年。还写了论文是不是真的%20-%20f412328c0779.md) — 论文真伪与细节追查
 
 ### 账号迁移 & 杂项
-- [GPT 账号迁移指南](codex-export/2026-06-23%20-%20现在我要更换gpt账号使用公司发放的账号今天，这个号plus就要过期了。但是我们的聊天记录与数据我想保留并且在公司账户上运行该怎么办%20-%2077239af53a7a.md) — Plus→公司账号全流程
-- [账号迁移后续](codex-export/2026-06-23%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%2003ac5a0dc00a.md) — 迁移操作收尾
-- [8 触点 FPC](codex-export/2026-06-22%20-%208触点FPC是什么%20-%200049baf37551.md) — FPC 基础知识
+- [GPT 账号迁移指南](raw-memory/codex/2026-06-23%20-%20现在我要更换gpt账号使用公司发放的账号今天，这个号plus就要过期了。但是我们的聊天记录与数据我想保留并且在公司账户上运行该怎么办%20-%2077239af53a7a.md) — Plus→公司账号全流程
+- [账号迁移后续](raw-memory/codex/2026-06-23%20-%20The%20following%20is%20the%20Codex%20agent%20history%20whose%20request%20action%20you%20are%20as%20-%2003ac5a0dc00a.md) — 迁移操作收尾
+- [8 触点 FPC](raw-memory/codex/2026-06-22%20-%208触点FPC是什么%20-%200049baf37551.md) — FPC 基础知识
 
 ## 会话存档（CherryClaw 对话自动保存）
 > 增量存档：cron 每 30 分钟触发，只保存新增消息，无新增则跳过。

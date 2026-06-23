@@ -1,3 +1,5 @@
 {"ts":"2026-06-10T05:11:34.865Z","tags":["auto-save","cron","memory-system"],"text":"设置对话自动存档系统：阈值30条消息，每30分钟cron检查一次。存档路径 F:/HJM-memory/sessions/session-YYYY-MM-DD-N.md。保存后自动更新 MEMORY.md 索引。"}
 {"ts":"2026-06-10T06:29:56.607Z","tags":["git","backup","cron"],"text":"配置 GitHub 备份：仓库 dreamobserver/HJM-memory，每天 17:20 cron 自动 git push (add → commit → push)。MEMORY.md 已 tracked。"}
 {"ts":"2026-06-10T09:24:40.475Z","tags":["bootstrap","cron","归档"],"text":"CherryClaw bootstrap 完成。哈基米身份初始化、文件规范确立、双 cron 存档体系上线。首次对话覆盖：SOUL.md 补写、result/ vs sessions/ 分工、增量存档+每日总结 cron 部署、Git push 验证。陛下下班，明天见。"}
+{"ts":"2026-06-22T09:24:10.758Z","tags":["backup","daily","2026-06-22"],"text":"每日备份完成 (2026-06-22)：Git push 35 files（主机名纠正、06-18存档索引入库、备份脚本初始化），Cherry Studio 2.8M + HJM-memory 120M 备份至云服务器，双通道通知已发送"}
+{"ts":"2026-06-23T07:56:48.771Z","tags":["codex","archive","2026-06-23"],"text":"Codex GPT Plus 月抛号遗产入库: 22 个会话 (3.3MB, 06-11→06-23) 复制到 F:/HJM-memory/codex-export/，含专题 README + MEMORY.md 索引。覆盖机器视觉/HALCON、网文创作、PS 自动化、HJM-memory 操作、token 监控、米哈游 AI 论文、GPT 账号迁移。适合喂入 CherryStudio 知识库。"}
