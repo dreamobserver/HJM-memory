@@ -169,25 +169,6 @@
 ## 会话存档（CherryClaw 对话自动保存）
 > 增量存档：cron 每 30 分钟触发，只保存新增消息，无新增则跳过。
 > 格式：`sessions/segment-YYYY-MM-DD-N.md`（增量片段）+ `result/session-YYYY-MM-DD-N.md`（完整存档）
-- [segment-2026-06-11-47](sessions/segment-2026-06-11-47.md) — 第四十七次手动触发增量存档
-- [segment-2026-06-11-48](sessions/segment-2026-06-11-48.md) — 第四十八次手动触发增量存档
-- [segment-2026-06-11-49](sessions/segment-2026-06-11-49.md) — 第四十九次手动触发增量存档（第50轮里程碑）
-- [segment-2026-06-11-50](sessions/segment-2026-06-11-50.md) — 第五十次手动触发增量存档
-- [segment-2026-06-11-51](sessions/segment-2026-06-11-51.md) — 第五十一次手动触发增量存档
-- [segment-2026-06-11-52](sessions/segment-2026-06-11-52.md) — 第五十二次手动触发增量存档
-- [segment-2026-06-11-53](sessions/segment-2026-06-11-53.md) — 第五十三次手动触发增量存档
-- [segment-2026-06-11-54](sessions/segment-2026-06-11-54.md) — 第五十四次手动触发增量存档
-- [segment-2026-06-11-55](sessions/segment-2026-06-11-55.md) — 第五十五次手动触发增量存档
-- [segment-2026-06-11-56](sessions/segment-2026-06-11-56.md) — 第五十六次手动触发增量存档
-- [segment-2026-06-11-57](sessions/segment-2026-06-11-57.md) — 第五十七次手动触发增量存档
-- [segment-2026-06-11-58](sessions/segment-2026-06-11-58.md) — 第五十八次手动触发增量存档
-- [segment-2026-06-11-59](sessions/segment-2026-06-11-59.md) — 第五十九次手动触发增量存档（第六十轮·甲子）
-- [segment-2026-06-11-60](sessions/segment-2026-06-11-60.md) — 第六十次手动触发增量存档（第六十一轮·出甲子）
-- [segment-2026-06-11-61](sessions/segment-2026-06-11-61.md) — 第六十一次手动触发增量存档
-- [segment-2026-06-11-62](sessions/segment-2026-06-11-62.md) — 第六十二次手动触发增量存档
-- [segment-2026-06-11-63](sessions/segment-2026-06-11-63.md) — 第六十三次手动触发增量存档
-- [segment-2026-06-11-64](sessions/segment-2026-06-11-64.md) — 第六十四次手动触发增量存档
-- [segment-2026-06-11-65](sessions/segment-2026-06-11-65.md) — 第六十五次手动触发增量存档
 - [segment-2026-06-11-66](sessions/segment-2026-06-11-66.md) — 第六十六次手动触发增量存档
 - [segment-2026-06-11-67](sessions/segment-2026-06-11-67.md) — 第六十七次手动触发增量存档
 - [segment-2026-06-11-68](sessions/segment-2026-06-11-68.md) — 第六十八次手动触发增量存档
@@ -269,5 +250,24 @@
 - [segment-2026-06-18-45](sessions/segment-2026-06-18-45.md) — 第47次
 - [segment-2026-06-18-46](sessions/segment-2026-06-18-46.md) — 第48次
 - [segment-2026-06-18-47](sessions/segment-2026-06-18-47.md) — 第49次
+- [segment-2026-06-18-48](sessions/segment-2026-06-18-48.md) — 第50次
+- [segment-2026-06-18-49](sessions/segment-2026-06-18-49.md) — 第51次
+- [segment-2026-06-18-50](sessions/segment-2026-06-18-50.md) — 第52次
+- [segment-2026-06-18-51](sessions/segment-2026-06-18-51.md) — 第53次
+- [segment-2026-06-18-52](sessions/segment-2026-06-18-52.md) — 第54次
+- [segment-2026-06-18-53](sessions/segment-2026-06-18-53.md) — 第55次
+- [segment-2026-06-18-54](sessions/segment-2026-06-18-54.md) — 第56次
+- [segment-2026-06-18-55](sessions/segment-2026-06-18-55.md) — 第57次
+- [segment-2026-06-18-56](sessions/segment-2026-06-18-56.md) — 第58次
+- [segment-2026-06-18-57](sessions/segment-2026-06-18-57.md) — 第59次
+- [segment-2026-06-18-58](sessions/segment-2026-06-18-58.md) — 第60次
+- [segment-2026-06-18-59](sessions/segment-2026-06-18-59.md) — 第61次
+- [segment-2026-06-18-60](sessions/segment-2026-06-18-60.md) — 第62次
+- [segment-2026-06-18-61](sessions/segment-2026-06-18-61.md) — 第63次
+- [segment-2026-06-18-62](sessions/segment-2026-06-18-62.md) — 第64次
+- [segment-2026-06-18-63](sessions/segment-2026-06-18-63.md) — 第65次
+- [segment-2026-06-18-64](sessions/segment-2026-06-18-64.md) — 第66次
+- [segment-2026-06-18-65](sessions/segment-2026-06-18-65.md) — 第67次
+- [segment-2026-06-18-66](sessions/segment-2026-06-18-66.md) — 第68次
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
