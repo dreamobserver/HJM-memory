@@ -28,11 +28,12 @@
 - SOUL.md → `F:/HJM-memory/result/SOUL.md`（哈基米人格）
 - USER.md → `F:/HJM-memory/USER.md`（陛下画像，保持在根目录，由系统预加载）
 
-## 当前活跃 Cron 作业
-| 名称 | 频率 | 用途 |
-|---|---|---|
-| hjm-memory-daily-push | 每天 17:20 UTC | 生成每日总结 → 推送 HJM-memory 到 GitHub |
-| hjm-conversation-save | 每 30 分钟 | 增量存档：只保存新增轮次到 sessions/segment-*.md，含原文+摘要，无新增则跳过，绝不重复 |
+## 当前活跃 Cron 作业（2026-06-26 重建，绑定微信通道）
+| 名称 | ID | 频率 | 用途 | 超时 |
+|---|---|---|---|---|
+| hjm-memory-daily-push | task_1782466011547_tr67di1pm | 每天 17:20 CST | 每日总结 → GitPush → 云备份 → 微信通知 | 15min |
+| hjm-conversation-save | task_1782466019160_6c5eepfgv | 每 30 分钟 | 增量存档 sessions/segment-*.md | 10min |
+| hjm-local-archive-slice | task_1782466024835_h0df60295 | 每 72 小时 | 归档 → v4切片 → 微信通知 | 20min |
 
 ## 会话存档
 - 增量格式：`sessions/segment-YYYY-MM-DD-N.md`（cron 自动生成，含摘要+原文）
