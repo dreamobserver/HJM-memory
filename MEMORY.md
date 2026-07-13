@@ -169,13 +169,10 @@
 ## 会话存档（CherryClaw 对话自动保存）
 > 增量存档：cron 每 30 分钟触发，只保存新增消息，无新增则跳过。
 > 格式：`sessions/segment-YYYY-MM-DD-N.md`（增量片段）+ `result/session-YYYY-MM-DD-N.md`（完整存档）
-- [segment-2026-06-18-2](sessions/segment-2026-06-18-2.md) — 第四次存档触发：正常执行，文件数控制
-- [segment-2026-06-18-3](sessions/segment-2026-06-18-3.md) — 第五次存档触发：正常执行
-- [segment-2026-06-18-4](sessions/segment-2026-06-18-4.md) — 第六次存档触发：正常执行
-- [segment-2026-06-18-5](sessions/segment-2026-06-18-5.md) — 第七次存档触发：正常执行
-- [segment-2026-06-18-6](sessions/segment-2026-06-18-6.md) — 第八次存档触发：正常执行
-- [segment-2026-06-18-7](sessions/segment-2026-06-18-7.md) — 第九次存档触发：正常执行
-- [segment-2026-06-18-8](sessions/segment-2026-06-18-8.md) — 第十次存档触发：正常执行
+
+
+
+
 - [segment-2026-06-18-9](sessions/segment-2026-06-18-9.md) — 第十一次存档触发：正常执行
 - [segment-2026-06-18-10](sessions/segment-2026-06-18-10.md) — 第十二次存档触发：正常执行
 - [segment-2026-06-18-11](sessions/segment-2026-06-18-11.md) — 第十三次存档触发：正常执行
@@ -269,5 +266,10 @@
 - [segment-2026-06-18-99](sessions/segment-2026-06-18-99.md) — 第101次
 - [segment-2026-06-18-100](sessions/segment-2026-06-18-100.md) — 第102次（06-11 全清）
 - [segment-2026-06-18-101](sessions/segment-2026-06-18-101.md) — 第103次（自噬开始）
+- [segment-2026-06-29-1](sessions/segment-2026-06-29-1.md) — 第104次：06-29 本地会话增量存档
+- [segment-2026-06-29-2](sessions/segment-2026-06-29-2.md) — 第105次：06-29 本地会话增量存档（第2轮触发）
+- [segment-2026-06-29-3](sessions/segment-2026-06-29-3.md) — 第106次：06-29 本地会话增量存档（第3轮触发）
+- [segment-2026-06-29-4](sessions/segment-2026-06-29-4.md) — 第107次：06-29 本地会话增量存档（第4轮触发）
+- [segment-2026-06-29-5](sessions/segment-2026-06-29-5.md) — 第108次：06-29 本地会话增量存档（第5轮触发）
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
