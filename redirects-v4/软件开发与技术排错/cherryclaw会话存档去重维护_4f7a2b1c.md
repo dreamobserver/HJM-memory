@@ -3,7 +3,7 @@ title: "CherryClaw 会话存档去重维护与微信通知异常排查"
 source_platform: "CherryClaw"
 source_file: "local-session-2026-06-29.md"
 turn_start: 1
-turn_end: 6
+turn_end: 42
 primary_category: "软件开发与技术排错"
 tags:
   - "会话存档"
@@ -23,7 +23,7 @@ classification_confidence: 0.95
 
 ## 内容摘要
 
-本切片记录了 2026-06-29 CherryClaw 执行的一轮批量会话存档维护操作。核心任务：清理 sessions/ 目录中 2026-06-18 的旧重复 segment 文件（共 8 个，编号 -2 至 -8），每轮删除后生成新的增量 segment 并更新 MEMORY.md。共执行 6 轮，每轮流程为「文件数检查 → 删除旧文件 → 断点确认 → 生成新 segment → 更新索引 → 微信通知」。微信通知在第 1 轮成功，第 2-6 轮均失败（原因未在此会话中排查解决）。属于 CherryClaw 自动化运维的典型场景。
+本切片记录了 2026-06-29 CherryClaw 执行的批量会话存档维护操作。核心任务：清理 sessions/ 目录中 2026-06-18 的旧重复 segment 文件（共 42 个，编号 18-2 至 18-44），每轮删除 1-3 个后生成新的增量 segment 并更新 MEMORY.md。共执行 42 轮，每轮流程为「文件数检查 → 删除旧文件 → 断点确认 → 生成新 segment → 更新索引 → 微信通知」。微信通知仅第 1 轮成功，第 2-42 轮全部失败（原因未在此会话中排查解决）。属于 CherryClaw 自动化运维的典型场景。
 
 ## 原始对话
 
@@ -91,6 +91,9 @@ classification_confidence: 0.95
 
 ## 关键结论
 
-- 当日清理了 2026-06-18 的 8 个旧重复 segment 文件
-- 微信 notify 在第 2-6 轮持续失败，但未在会话中解决
+- 当日清理了 2026-06-18 的 42 个旧重复 segment 文件（18-2 至 18-44）
+- 同时生成了 42 个 2026-06-29 新 segment 文件（29-1 至 29-42）
+- sessions/ 文件数从 101 逐步降到 ~70（净删除约 30 个）
+- 微信 notify 仅第 1 轮成功，第 2-42 轮全部失败（/ilink/bot/sendmessage 报错）
+- 06-18 的 segment-73 至 101（29 个）为薄索引标记段，无实质对话内容
 - 这是 CherryClaw 元操作（Agent 维护自身存档系统）的标准流程
