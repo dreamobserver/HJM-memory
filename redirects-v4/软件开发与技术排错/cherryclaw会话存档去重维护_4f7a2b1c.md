@@ -3,7 +3,7 @@ title: "CherryClaw 会话存档去重维护与微信通知异常排查"
 source_platform: "CherryClaw"
 source_file: "local-session-2026-06-29.md"
 turn_start: 1
-turn_end: 42
+turn_end: 80
 primary_category: "软件开发与技术排错"
 tags:
   - "会话存档"
