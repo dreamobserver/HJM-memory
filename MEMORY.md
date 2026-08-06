@@ -293,5 +293,6 @@
 - [segment-2026-07-17-80](sessions/segment-2026-07-17-80.md) — 263
 - [segment-2026-07-17-81](sessions/segment-2026-07-17-81.md) — 264
 - [segment-2026-07-17-82](sessions/segment-2026-07-17-82.md) — 265
+- [segment-2026-07-17-83](sessions/segment-2026-07-17-83.md) — 266
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
