@@ -219,8 +219,8 @@
 
 
 
-- [segment-2026-07-17-9](sessions/segment-2026-07-17-9.md) — 第192次
-- [segment-2026-07-17-10](sessions/segment-2026-07-17-10.md) — 第193次
+
+
 - [segment-2026-07-17-11](sessions/segment-2026-07-17-11.md) — 第194次
 - [segment-2026-07-17-12](sessions/segment-2026-07-17-12.md) — 第195次
 - [segment-2026-07-17-13](sessions/segment-2026-07-17-13.md) — 第196次
@@ -317,5 +317,7 @@
 - [segment-2026-08-07-16](sessions/segment-2026-08-07-16.md) — 287
 - [segment-2026-08-07-17](sessions/segment-2026-08-07-17.md) — 288
 - [segment-2026-08-07-18](sessions/segment-2026-08-07-18.md) — 289
+- [segment-2026-08-07-19](sessions/segment-2026-08-07-19.md) — 290
+- [segment-2026-08-07-20](sessions/segment-2026-08-07-20.md) — 291
 - [session-2026-06-10-1](result/session-2026-06-10-1.md) — CherryClaw Bootstrap 完整存档（手动触发）
 - [daily-2026-06-10](result/daily-2026-06-10.md) — 每日总结：Bootstrap、文件规范、双 cron 体系上线
